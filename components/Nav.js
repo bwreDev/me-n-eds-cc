@@ -15,21 +15,21 @@ const locations = [
 		name: `Me n Ed's | Nipomo`,
 		address: '110 Mary Ave #1 Nipomo, CA 93444',
 		phone: '(805) 929-2915',
-		href: '/locations/nipomo',
+		href: '/locations',
 		icon: SparklesIcon,
 	},
 	{
 		name: `Me n Ed's | Santa Maria`,
 		address: '560 Betteravia Rd #1 Santa Maria, CA 93454',
 		phone: '(805) 925-7992',
-		href: '/locations/santa-maria',
+		href: '/locations',
 		icon: ChartPieIcon,
 	},
 	{
 		name: `Me n Ed's | Pismo`,
 		address: '750 Price St Pismo Beach, CA 93449',
 		phone: '(805) 556-3636',
-		href: '/locations/pismo',
+		href: '/locations',
 		icon: FireIcon,
 	},
 ];
@@ -148,7 +148,7 @@ export default function Nav() {
 					className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'>
 					<div className='rounded-lg shadow-lg ring-2 ring-white ring-opacity-5 bg-gray-900 bg-grunge-overlay bg-fixed divide-y-2 divide-gray-50'>
 						<div className='pt-5 pb-6 px-5'>
-							<div className='flex items-center justify-between'>
+							<div className='flex items-center justify-between border-b-2 pb-4 border-red-700'>
 								<div>
 									<img
 										className='h-16 w-auto'
@@ -156,6 +156,16 @@ export default function Nav() {
 										alt="Me n Ed's Logo"
 									/>
 								</div>
+								<Link href='/'>
+									<a className='text-gray-100 hover:text-gray-400'>
+										Home
+									</a>
+								</Link>
+								<Link href='/locations'>
+									<a className='text-gray-100 hover:text-gray-400'>
+										Locations
+									</a>
+								</Link>
 								<div className='-mr-2'>
 									<Popover.Button className='bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-300 hover:text-gray-200 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700'>
 										<span className='sr-only'>Close menu</span>

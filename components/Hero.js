@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import {
 	SparklesIcon,
 	ChartPieIcon,
@@ -9,21 +11,21 @@ const locations = [
 		name: `Me n Ed's | Nipomo`,
 		address: '110 Mary Ave #1 Nipomo, CA 93444',
 		phone: '(805) 929-2915',
-		href: '/locations/nipomo',
+		href: '/locations',
 		icon: SparklesIcon,
 	},
 	{
 		name: `Me n Ed's | Santa Maria`,
 		address: '560 Betteravia Rd #1 Santa Maria, CA 93454',
 		phone: '(805) 925-7992',
-		href: '/locations/santa-maria',
+		href: '/locations',
 		icon: ChartPieIcon,
 	},
 	{
 		name: `Me n Ed's | Pismo`,
 		address: '750 Price St Pismo Beach, CA 93449',
 		phone: '(805) 556-3636',
-		href: '/locations/pismo',
+		href: '/locations',
 		icon: FireIcon,
 	},
 ];
@@ -39,10 +41,17 @@ export default function Hero() {
 					/>
 				</div>
 				<div className='relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
-					<h1 className='text-4xl font-bold tracking-tight text-gray-100 filter drop-shadow-2xl md:text-5xl lg:text-6xl'>
+					<h1 className='sr-only'>
 						Me n Ed&apos;s of the Central Coast
 					</h1>
-					<p className='mt-6 max-w-3xl text-xl text-gray-200 filter drop-shadow-xl'>
+					<Image
+						src='/me-n-eds-central-coast-white.svg'
+						alt="Me and Ed's of the Central Coast"
+						className=''
+						width={891}
+						height={82}
+					/>
+					<p className='mt-6 text-md max-w-sm sm:max-w-3xl sm:text-xl text-gray-200 filter drop-shadow-xl'>
 						Bringing the Fresno classic to the Central Coast, come
 						visit one of our beloved locations!
 						<br />
@@ -61,7 +70,7 @@ export default function Hero() {
 						<div
 							key={location.name}
 							className='flex flex-col ring-1 ring-red-700 bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-xl'>
-							<div className='flex-1 relative pt-16 px-6 pb-8 bg-grunge-overlay bg-fixed md:px-8'>
+							<div className='flex-1 relative pt-16 px-6 pb-8 bg-blast-overlay bg-bottom bg-fixed xl:bg-cover md:px-8'>
 								<div className='absolute top-0 p-5 inline-block bg-gradient-to-br from-red-700 to-red-600 rounded-xl shadow-lg transform -translate-y-1/2'>
 									<location.icon
 										className='h-6 w-6 text-black hover:text-white'
