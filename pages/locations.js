@@ -19,8 +19,7 @@ const locations = [
 			instagram: 'https://www.instagram.com/meneds_nipomo/',
 			yelp: 'https://www.yelp.com/biz/me-n-eds-pizzeria-nipomo?osq=me+n+eds',
 		},
-		imageUrl:
-			'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+		imageUrl: '/me-n-eds-nipomo-sunset.jpg',
 	},
 	{
 		name: `Me n Ed's | Santa Maria`,
@@ -43,8 +42,7 @@ const locations = [
 			instagram: 'https://www.instagram.com/meneds_santamaria/',
 			yelp: 'https://www.yelp.com/biz/me-n-ed-s-pizzeria-and-crafthouse-santa-maria?osq=me+n+eds',
 		},
-		imageUrl:
-			'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+		imageUrl: '/me-n-eds-santa-maria-exterior.jpg',
 	},
 	{
 		name: `Me n Ed's | Pismo`,
@@ -66,8 +64,7 @@ const locations = [
 			instagram: 'https://www.instagram.com/menedspismobeach/',
 			yelp: 'https://www.yelp.com/biz/me-n-ed-s-pizzeria-and-craft-house-pismo-beach-2?osq=me+n+eds',
 		},
-		imageUrl:
-			'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+		imageUrl: '/me-n-eds-pismo-interior.jpg',
 	},
 ];
 
@@ -94,7 +91,7 @@ export default function Locations() {
 							className='flex flex-col rounded-lg border-4 border-red-700 shadow-lg overflow-hidden'>
 							<div className='flex-shrink-0'>
 								<img
-									className='h-48 w-full object-cover'
+									className='h-52 w-full object-cover'
 									src={location.imageUrl}
 									alt={location.name}
 								/>
@@ -159,7 +156,10 @@ export default function Locations() {
 									</a>
 									<ul className='flex inline-flex'>
 										<li className='p-2'>
-											<a href={location.social.facebook}>
+											<a
+												target='_blank'
+												rel='noopener noreferrer'
+												href={location.social.facebook}>
 												<svg
 													className='fill-current text-gray-700 hover:text-red-700'
 													xmlns='http://www.w3.org/2000/svg'
@@ -171,7 +171,10 @@ export default function Locations() {
 											</a>
 										</li>
 										<li className='p-2'>
-											<a href={location.social.instagram}>
+											<a
+												target='_blank'
+												rel='noopener noreferrer'
+												href={location.social.instagram}>
 												<svg
 													className='fill-current text-gray-700 hover:text-red-700'
 													xmlns='http://www.w3.org/2000/svg'
@@ -183,7 +186,10 @@ export default function Locations() {
 											</a>
 										</li>
 										<li className='p-2'>
-											<a href={location.social.yelp}>
+											<a
+												target='_blank'
+												rel='noopener noreferrer'
+												href={location.social.yelp}>
 												<svg
 													className='fill-current text-gray-700 hover:text-red-700'
 													xmlns='http://www.w3.org/2000/svg'
