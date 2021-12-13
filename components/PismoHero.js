@@ -42,8 +42,8 @@ export default function PismoHero() {
 				<div className='relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
 					<h1>
 						<img
-							src='/me-n-eds-santa-maria-white.svg'
-							alt='Me-n-Eds Santa Maria'
+							src='/me-n-eds-pismo-white.svg'
+							alt='Me-n-Eds Pismo'
 						/>
 					</h1>
 					<p className='mt-6 max-w-3xl text-xl text-gray-300'>
