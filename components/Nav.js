@@ -1,13 +1,7 @@
 import Link from 'next/link';
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import {
-	ChartPieIcon,
-	FireIcon,
-	MenuIcon,
-	XIcon,
-	SparklesIcon,
-} from '@heroicons/react/outline';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 
 const locations = [
@@ -16,21 +10,18 @@ const locations = [
 		address: '110 Mary Ave #1 Nipomo, CA 93444',
 		phone: '(805) 929-2915',
 		href: '/locations/nipomo',
-		icon: SparklesIcon,
 	},
 	{
 		name: `Me n Ed's | Santa Maria`,
 		address: '560 Betteravia Rd #1 Santa Maria, CA 93454',
 		phone: '(805) 925-7992',
 		href: '/locations/santa-maria',
-		icon: ChartPieIcon,
 	},
 	{
 		name: `Me n Ed's | Pismo`,
 		address: '750 Price St Pismo Beach, CA 93449',
 		phone: '(805) 556-3636',
 		href: '/locations/pismo',
-		icon: FireIcon,
 	},
 ];
 
@@ -40,7 +31,7 @@ function classNames(...classes) {
 
 export default function Nav() {
 	return (
-		<Popover className='relative bg-gray-900 z-10'>
+		<Popover className='relative z-10'>
 			<div className='flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10'>
 				<div className='flex justify-start lg:w-0 lg:flex-1'>
 					<Link href='/'>
@@ -48,7 +39,7 @@ export default function Nav() {
 							<span className='sr-only'>Me n Ed&apos;s</span>
 							<img
 								className='h-16 w-auto pl-6 sm:h-20 md:h-24 md:pl-10 lg:h-28 lg:pl-12'
-								src='/me-n-eds-logo.svg'
+								src='/svg/me-n-eds-crafthouse.svg'
 								alt="Me n Ed's Logo"
 							/>
 						</a>
@@ -62,12 +53,12 @@ export default function Nav() {
 				</div>
 				<Popover.Group as='nav' className='hidden md:flex space-x-10'>
 					<Link href='/'>
-						<a className='text-base font-medium text-gray-200 hover:text-gray-400'>
+						<a className='text-lg font-medium text-gray-200 hover:text-gray-400'>
 							Home
 						</a>
 					</Link>
 					<Link href='/locations'>
-						<a className='text-base font-medium text-gray-200 hover:text-gray-400'>
+						<a className='text-lg font-medium text-gray-200 hover:text-gray-400'>
 							Locations
 						</a>
 					</Link>
@@ -77,7 +68,7 @@ export default function Nav() {
 								<Popover.Button
 									className={classNames(
 										open ? 'text-gray-200' : 'text-gray-200',
-										'group bg-gray-900 rounded-md inline-flex items-center text-base font-medium hover:text-gray-400 focus:outline-none'
+										'group rounded-md inline-flex items-center text-lg font-medium hover:text-gray-400 focus:outline-none'
 									)}>
 									<span>Stores</span>
 									<ChevronDownIcon
@@ -98,18 +89,12 @@ export default function Nav() {
 									leaveTo='opacity-0 translate-y-1'>
 									<Popover.Panel className='absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'>
 										<div className='rounded-lg shadow-lg ring-1 ring-white ring-opacity-20 overflow-hidden'>
-											<div className='relative grid gap-6 bg-gray-900 px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2'>
+											<div className='relative grid gap-6 bg-gray-900 px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-3'>
 												{locations.map((location) => (
 													<Link
 														href={location.href}
 														key={location.name}>
 														<a className='-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800'>
-															<div className='flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-700 text-gray-900 hover:text-gray-200 sm:h-12 sm:w-12'>
-																<location.icon
-																	className='h-6 w-6'
-																	aria-hidden='true'
-																/>
-															</div>
 															<div className='ml-4'>
 																<p className='text-base font-medium text-gray-200'>
 																	{location.name}
@@ -152,7 +137,7 @@ export default function Nav() {
 								<div>
 									<img
 										className='h-16 w-auto'
-										src='/me-n-eds-logo.svg'
+										src='/svg/me-n-eds-crafthouse.svg'
 										alt="Me n Ed's Logo"
 									/>
 								</div>
@@ -180,12 +165,6 @@ export default function Nav() {
 											key={location.name}
 											href={location.href}
 											className='-m-3 p-3 flex items-center rounded-lg hover:bg-gray-700'>
-											<div className='flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-red-700 text-gray-900 hover:text-gray-100 '>
-												<location.icon
-													className='h-6 w-6'
-													aria-hidden='true'
-												/>
-											</div>
 											<div className='ml-4 text-base font-medium text-gray-200'>
 												{location.name}
 											</div>

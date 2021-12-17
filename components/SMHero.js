@@ -1,6 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { ChartPieIcon } from '@heroicons/react/outline';
-
 const santaMaria = {
 	name: `Me n Ed's | Santa Maria`,
 	href: '/locations',
@@ -16,35 +13,36 @@ const santaMaria = {
 		saturday: '11:00am - 11:00pm',
 		sunday: '11:00am - 10:00pm',
 	},
-	icon: ChartPieIcon,
 	social: {
 		facebook:
 			'https://www.facebook.com/Me-N-Eds-Pizzeria-and-Craft-House-Santa-Maria-107905798246434',
 		instagram: 'https://www.instagram.com/meneds_santamaria/',
 		yelp: 'https://www.yelp.com/biz/me-n-ed-s-pizzeria-and-crafthouse-santa-maria?osq=me+n+eds',
 	},
-	imageUrl: '/me-n-eds-santa-maria-exterior.jpg',
 };
 
 export default function SMHero() {
 	return (
-		<div className='bg-gray-900'>
-			<div className='relative pb-32 bg-gray-800'>
+		<>
+			<div className='relative pb-32'>
 				<div className='absolute inset-0'>
 					<img
 						className='w-full h-full object-cover'
-						src='/me-n-eds-santa-maria-interior.jpg'
+						src='/images/me-n-eds-sm-interior.jpg'
 						alt='Me n Eds Santa Maria'
 					/>
 					<div
-						className='absolute inset-0 bg-gray-800 mix-blend-multiply'
+						className='absolute inset-0 bg-gray-700 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
 				<div className='relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
 					<h1>
+						<span className='sr-only'>
+							Me and Ed&apos;s | Santa Maria
+						</span>
 						<img
-							src='/me-n-eds-santa-maria-white.svg'
+							src='/svg/me-n-eds-santa-maria-white.svg'
 							alt='Me-n-Eds Santa Maria'
 						/>
 					</h1>
@@ -64,17 +62,17 @@ export default function SMHero() {
 				<h2 className='sr-only' id='contact-heading'>
 					Store Information
 				</h2>
-				<div className='grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8'>
-					<div className='flex flex-col bg-gray-900 border-2 border-red-700 rounded-2xl shadow-xl'>
+				<div className='max-w-xl mx-auto bg-gray-900'>
+					<div className='flex flex-col bg-grunge-overlay bg-cover bg-fixed border-2 border-red-700 rounded-2xl shadow-xl'>
 						<div className='flex-1 relative pt-16 px-6 pb-8 md:px-8'>
-							<div className='absolute top-0 p-5 inline-block bg-red-700 rounded-xl shadow-lg transform -translate-y-1/2'>
-								<santaMaria.icon
-									className='h-6 w-6 text-gray-900 hover:text-gray-100'
-									aria-hidden='true'
-								/>
-							</div>
-							<h3 className='text-xl font-medium text-gray-200'>
-								{santaMaria.address}
+							<h3 className='text-xl font-medium text-gray-100'>
+								<a
+									href={santaMaria.mapUrl}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='hover:text-red-700'>
+									{santaMaria.address}
+								</a>
 							</h3>
 							<p className='mt-4 text-base text-gray-300'>
 								<a href={`tel:${santaMaria.phone}`}>
@@ -82,10 +80,10 @@ export default function SMHero() {
 								</a>
 								<br />
 								<a href={`mailto:${santaMaria.email}`}>
-									{santaMaria.email}{' '}
+									{santaMaria.email}
 								</a>
 							</p>
-							<ul className='text-gray-400 text-sm text-right'>
+							<ul className='text-gray-400 text-right pt-6'>
 								<li>
 									Mon -
 									<time dateTime={santaMaria.hours.monday}>
@@ -130,8 +128,8 @@ export default function SMHero() {
 								</li>
 							</ul>
 						</div>
-						<div className='p-6 bg-gray-900 rounded-bl-2xl rounded-br-2xl md:px-8'>
-							<ul className='flex inline-flex'>
+						<div className='p-6 rounded-bl-2xl rounded-br-2xl md:px-8'>
+							<ul className='flex'>
 								<li className='p-2'>
 									<a
 										target='_blank'
@@ -182,6 +180,6 @@ export default function SMHero() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }

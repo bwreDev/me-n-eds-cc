@@ -1,6 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { SparklesIcon } from '@heroicons/react/outline';
-
 const nipomo = {
 	name: `Me n Ed's | Nipomo`,
 	href: '/locations',
@@ -16,7 +13,8 @@ const nipomo = {
 		saturday: '11:00am - 10:00pm',
 		sunday: '11:00am - 9:00pm',
 	},
-	icon: SparklesIcon,
+	mapUrl:
+		'https://www.google.com/maps/place/110+Mary+Ave+%231,+Nipomo,+CA+93444/@35.0352389,-120.4891723,17z/data=!3m2!4b1!5s0x80ec685e6f00482b:0xfeede531d01d586c!4m5!3m4!1s0x80ec685e72eaf483:0xf719107640621b3d!8m2!3d35.0352345!4d-120.4869836',
 	social: {
 		facebook: 'https://www.facebook.com/NipomoMeNEdsPizzeria/',
 		instagram: 'https://www.instagram.com/meneds_nipomo/',
@@ -26,23 +24,24 @@ const nipomo = {
 
 export default function NipomoHero() {
 	return (
-		<div className='bg-gray-900'>
-			<div className='relative pb-32 bg-gray-800'>
+		<>
+			<div className='relative pb-28'>
 				<div className='absolute inset-0'>
 					<img
 						className='w-full h-full object-cover'
-						src='/me-n-eds-nipomo-interior.jpg'
+						src='/images/me-n-eds-nipomo-interior.jpg'
 						alt='Me n Eds Nipomo'
 					/>
 					<div
-						className='absolute inset-0 bg-gray-800 mix-blend-multiply'
+						className='absolute inset-0 bg-gray-700 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
 				<div className='relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
 					<h1 className='text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl'>
+						<span className='sr-only'>Me and Ed&apos;s | Nipomo</span>
 						<img
-							src='/me-n-eds-nipomo-white.svg'
+							src='/svg/me-n-eds-nipomo-white.svg'
 							alt='Me-n-Eds Nipomo'
 						/>
 					</h1>
@@ -55,24 +54,23 @@ export default function NipomoHero() {
 					</p>
 				</div>
 			</div>
-
 			<section
 				className='-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8'
 				aria-labelledby='contact-heading'>
 				<h2 className='sr-only' id='contact-heading'>
-					Me n Ed&apos;s Nipomo
+					Store Information
 				</h2>
-				<div className='grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8'>
-					<div className='flex flex-col bg-gray-900 border-2 border-red-700 rounded-2xl shadow-xl'>
+				<div className='max-w-xl mx-auto bg-gray-900'>
+					<div className='flex flex-col bg-grunge-overlay bg-cover bg-fixed border-2 border-red-700 rounded-2xl shadow-xl'>
 						<div className='flex-1 relative pt-16 px-6 pb-8 md:px-8'>
-							<div className='absolute top-0 p-5 inline-block bg-red-700 rounded-xl shadow-lg transform -translate-y-1/2'>
-								<nipomo.icon
-									className='h-6 w-6 text-gray-900 hover:text-gray-100'
-									aria-hidden='true'
-								/>
-							</div>
 							<h3 className='text-xl font-medium text-gray-100'>
-								{nipomo.address}
+								<a
+									href={nipomo.mapUrl}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='hover:text-red-700'>
+									{nipomo.address}
+								</a>
 							</h3>
 							<p className='mt-4 text-base text-gray-300'>
 								<a
@@ -87,7 +85,7 @@ export default function NipomoHero() {
 									{nipomo.email}
 								</a>
 							</p>
-							<ul className='text-gray-400 text-sm text-right'>
+							<ul className='text-gray-400 text-right pt-6'>
 								<li>
 									Mon -
 									<time dateTime={nipomo.hours.monday}>
@@ -132,8 +130,8 @@ export default function NipomoHero() {
 								</li>
 							</ul>
 						</div>
-						<div className='p-6 bg-gray-900 rounded-bl-2xl rounded-br-2xl md:px-8'>
-							<ul className='flex inline-flex'>
+						<div className='p-6 rounded-bl-2xl rounded-br-2xl md:px-8'>
+							<ul className='flex'>
 								<li className='p-2'>
 									<a
 										target='_blank'
@@ -184,6 +182,6 @@ export default function NipomoHero() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }

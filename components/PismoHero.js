@@ -1,5 +1,3 @@
-import { FireIcon } from '@heroicons/react/outline';
-
 const pismo = {
 	name: `Me n Ed's | Pismo`,
 	href: '/locations',
@@ -15,23 +13,22 @@ const pismo = {
 		saturday: '11:00am - 11:00pm',
 		sunday: '11:00am - 10:00pm',
 	},
-	icon: FireIcon,
 	social: {
 		facebook: 'https://www.facebook.com/menedspismo/',
 		instagram: 'https://www.instagram.com/menedspismobeach/',
 		yelp: 'https://www.yelp.com/biz/me-n-ed-s-pizzeria-and-craft-house-pismo-beach-2?osq=me+n+eds',
 	},
-	imageUrl: '/me-n-eds-pismo-interior.jpg',
+	mapUrl: `https://www.google.com/maps/place/Me-n-Ed's+Pizzeria+and+Crafthouse/@35.1418512,-120.6401713,20.5z/data=!4m13!1m7!3m6!1s0x80ec58dd1df43131:0x5ff78d98d55bd461!2s750+Price+St,+Pismo+Beach,+CA+93449!3b1!8m2!3d35.142158!4d-120.640168!3m4!1s0x80ec59030c149fad:0x2692b7c9b9c3742b!8m2!3d35.1421029!4d-120.6402357`,
 };
 
 export default function PismoHero() {
 	return (
-		<div className='bg-gray-900'>
-			<div className='relative pb-32 bg-gray-800'>
+		<>
+			<div className='relative pb-28'>
 				<div className='absolute inset-0'>
 					<img
 						className='w-full h-full object-cover'
-						src='/me-n-eds-pismo-bar.jpg'
+						src='/images/me-n-eds-pismo-bar.jpg'
 						alt='Me n Eds Pismo'
 					/>
 					<div
@@ -41,8 +38,9 @@ export default function PismoHero() {
 				</div>
 				<div className='relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
 					<h1>
+						<span className='sr-only'>{pismo.name}</span>
 						<img
-							src='/me-n-eds-pismo-white.svg'
+							src='/svg/me-n-eds-pismo-white.svg'
 							alt='Me-n-Eds Pismo'
 						/>
 					</h1>
@@ -62,24 +60,24 @@ export default function PismoHero() {
 				<h2 className='sr-only' id='contact-heading'>
 					Store Information
 				</h2>
-				<div className='grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8'>
-					<div className='flex flex-col bg-gray-900 border-2 border-red-700 rounded-2xl shadow-xl'>
+				<div className='max-w-xl mx-auto bg-gray-900'>
+					<div className='flex flex-col bg-grunge-overlay bg-cover bg-fixed border-2 border-red-700 rounded-2xl shadow-xl'>
 						<div className='flex-1 relative pt-16 px-6 pb-8 md:px-8'>
-							<div className='absolute top-0 p-5 inline-block bg-red-700 rounded-xl shadow-lg transform -translate-y-1/2'>
-								<pismo.icon
-									className='h-6 w-6 text-gray-900 hover:text-gray-100'
-									aria-hidden='true'
-								/>
-							</div>
 							<h3 className='text-xl font-medium text-gray-200'>
-								{pismo.address}
+								<a
+									href={pismo.mapUrl}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='hover:text-red-700'>
+									{pismo.address}
+								</a>
 							</h3>
 							<p className='mt-4 text-base text-gray-300'>
 								<a href={`tel:${pismo.phone}`}>{pismo.phone}</a>
 								<br />
 								<a href={`mailto:${pismo.email}`}>{pismo.email} </a>
 							</p>
-							<ul className='text-gray-400 text-sm text-right'>
+							<ul className='text-gray-400 text-right pt-6'>
 								<li>
 									Mon -
 									<time dateTime={pismo.hours.monday}>
@@ -176,6 +174,6 @@ export default function PismoHero() {
 					</div>
 				</div>
 			</section>
-		</div>
+		</>
 	);
 }
