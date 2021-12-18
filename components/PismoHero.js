@@ -28,11 +28,11 @@ export default function PismoHero() {
 				<div className='absolute inset-0'>
 					<img
 						className='w-full h-full object-cover'
-						src='/images/me-n-eds-pismo-bar.jpg'
+						src='/images/pismo-int-mne.jpg'
 						alt='Me n Eds Pismo'
 					/>
 					<div
-						className='absolute inset-0 bg-gray-800 mix-blend-multiply'
+						className='absolute inset-0 bg-gray-600 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
@@ -122,7 +122,7 @@ export default function PismoHero() {
 								</li>
 							</ul>
 						</div>
-						<div className='p-6 bg-gray-900 rounded-bl-2xl rounded-br-2xl md:px-8'>
+						<div className='p-6 rounded-bl-2xl rounded-br-2xl md:px-8'>
 							<ul className='flex inline-flex'>
 								<li className='p-2'>
 									<a

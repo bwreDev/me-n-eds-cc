@@ -32,7 +32,7 @@ export default function Hero() {
 			<div className='relative pb-36'>
 				<div className='absolute inset-0 bg-offset-315 bg-top bg-fixed lg:bg-cover xl:bg-bottom'>
 					<div
-						className='absolute inset-0 bg-gray-400 mix-blend-multiply'
+						className='absolute inset-0 bg-gray-500 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>

@@ -32,7 +32,7 @@ export default function SMHero() {
 						alt='Me n Eds Santa Maria'
 					/>
 					<div
-						className='absolute inset-0 bg-gray-700 mix-blend-multiply'
+						className='absolute inset-0 bg-gray-600 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
