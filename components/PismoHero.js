@@ -3,7 +3,7 @@ const pismo = {
 	href: '/locations',
 	address: '750 Price St Pismo Beach, CA 93449',
 	phone: '(805) 556-3636',
-	email: 'info@cc-rg.com',
+	email: 'pismo.meneds@cc-rg.com',
 	hours: {
 		monday: '11:00am - 10:00pm',
 		tuesday: '11:00am - 10:00pm',
@@ -32,7 +32,7 @@ export default function PismoHero() {
 						alt='Me n Eds Pismo'
 					/>
 					<div
-						className='absolute inset-0 bg-gray-600 mix-blend-multiply'
+						className='absolute inset-0 bg-grey-600 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
@@ -44,12 +44,12 @@ export default function PismoHero() {
 							alt='Me-n-Eds Pismo'
 						/>
 					</h1>
-					<p className='mt-6 max-w-3xl text-xl text-gray-300'>
+					<p className='mt-6 max-w-3xl text-xl text-grey-300'>
 						Iconic. Classic. Fresh. Me-n-Eds Pismo is a love letter to
-						pizzarias. Come enjoy a slice with our family!
+						pizzerias. Come enjoy a slice with our family!
 						<br />
 						<q className='italic p-6'>
-							Two fun guys, one great pizza!
+							Two fun guys, one serious pizza!
 						</q>
 					</p>
 				</div>
@@ -60,10 +60,10 @@ export default function PismoHero() {
 				<h2 className='sr-only' id='contact-heading'>
 					Store Information
 				</h2>
-				<div className='max-w-xl mx-auto bg-gray-900'>
+				<div className='max-w-xl mx-auto bg-gradient-to-br from-grey-900 via-grey-900 to-grey-800 rounded-2xl'>
 					<div className='flex flex-col bg-grunge-overlay bg-cover bg-fixed border-2 border-red-700 rounded-2xl shadow-xl'>
 						<div className='flex-1 relative pt-16 px-6 pb-8 md:px-8'>
-							<h3 className='text-xl font-medium text-gray-200'>
+							<h3 className='text-xl font-medium text-grey-200'>
 								<a
 									href={pismo.mapUrl}
 									target='_blank'
@@ -72,12 +72,15 @@ export default function PismoHero() {
 									{pismo.address}
 								</a>
 							</h3>
-							<p className='mt-4 text-base text-gray-300'>
+							<p className='mt-4 text-base text-grey-300'>
 								<a href={`tel:${pismo.phone}`}>{pismo.phone}</a>
 								<br />
-								<a href={`mailto:${pismo.email}`}>{pismo.email} </a>
+								<a
+									href={`mailto:${pismo.email}?cc=wendy@cc-rg.com, dferdinandi@blast825taproom.com&subject=Contact Pismo Me-n-Ed's | `}>
+									{pismo.email}{' '}
+								</a>
 							</p>
-							<ul className='text-gray-400 text-right pt-6'>
+							<ul className='text-grey-400 text-right pt-6'>
 								<li>
 									Mon -
 									<time dateTime={pismo.hours.monday}>
@@ -130,7 +133,7 @@ export default function PismoHero() {
 										rel='noopener noreferrer'
 										href={pismo.social.facebook}>
 										<svg
-											className='fill-current text-gray-700 hover:text-red-700'
+											className='fill-current text-grey-700 hover:text-red-700'
 											xmlns='http://www.w3.org/2000/svg'
 											viewBox='0 0 48 48'
 											width='48px'
@@ -145,7 +148,7 @@ export default function PismoHero() {
 										rel='noopener noreferrer'
 										href={pismo.social.instagram}>
 										<svg
-											className='fill-current text-gray-700 hover:text-red-700'
+											className='fill-current text-grey-700 hover:text-red-700'
 											xmlns='http://www.w3.org/2000/svg'
 											viewBox='0 0 48 48'
 											width='48px'
@@ -160,7 +163,7 @@ export default function PismoHero() {
 										rel='noopener noreferrer'
 										href={pismo.social.yelp}>
 										<svg
-											className='fill-current text-gray-700 hover:text-red-700'
+											className='fill-current text-grey-700 hover:text-red-700'
 											xmlns='http://www.w3.org/2000/svg'
 											viewBox='0 0 48 48'
 											width='48px'

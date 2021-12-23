@@ -13,10 +13,10 @@ export default function GCHero() {
 					<h2 className='text-base font-semibold uppercase tracking-wider text-red-700'>
 						Universal gift cards
 					</h2>
-					<p className='pt-2 text-gray-100 text-3xl font-extrabold tracking-tight sm:text-4xl'>
+					<p className='pt-2 text-grey-100 text-3xl font-extrabold tracking-tight sm:text-4xl'>
 						Just in time for the holidays!
 					</p>
-					<p className='mt-3 mb-14 text-lg text-gray-300'>
+					<p className='mt-3 mb-14 text-lg text-grey-300'>
 						Now offering universal gift cards for our various
 						locations and concepts. Come on in and ask about our
 						offers in store!

@@ -5,7 +5,7 @@ export default function Pismo() {
 	return (
 		<>
 			<Head>
-				<title>Me-n-Ed&apos;s Pizzaria & Crafthouse | Pismo</title>
+				<title>Me-n-Ed&apos;s pizzeria & Crafthouse | Pismo</title>
 				<meta charSet='utf-8' />
 				<meta
 					name='viewport'
@@ -14,15 +14,15 @@ export default function Pismo() {
 				<meta name='author' content='Colton Bonner' />
 				<meta
 					name='description'
-					content="Me-n-Ed's Pizzaria and Crafthouse in Pismo is the newest addition to the Central Coast Restaurant Group's family. Now open! 750 Price St Pismo Beach, CA 93449. (805) 556-3636. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
+					content="Me-n-Ed's pizzeria and Crafthouse in Pismo is the newest addition to the Central Coast Restaurant Group's family. Now open! 750 Price St Pismo Beach, CA 93449. (805) 556-3636. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
 				/>
 				<meta
 					property='og:title'
-					content="Me-n-Ed's Pizzaria & Crafthouse | Pismo"
+					content="Me-n-Ed's pizzeria & Crafthouse | Pismo"
 				/>
 				<meta
 					property='og:description'
-					content="Me-n-Ed's Pizzaria and Crafthouse in Pismo is the newest addition to the Central Coast Restaurant Group's family. Now open! 750 Price St Pismo Beach, CA 93449. (805) 556-3636. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
+					content="Me-n-Ed's pizzeria and Crafthouse in Pismo is the newest addition to the Central Coast Restaurant Group's family. Now open! 750 Price St Pismo Beach, CA 93449. (805) 556-3636. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
 				/>
 				<meta
 					property='og:image'

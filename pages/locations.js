@@ -7,7 +7,8 @@ const locations = [
 		href: '/locations/nipomo',
 		address: '110 Mary Ave #1 Nipomo, CA 93444',
 		phone: '(805) 929-2915',
-		email: 'info@cc-rg.com',
+		email: 'nipomo.meneds@cc-rg.com',
+		emailSubject: "Contact Nipomo Me-n-Ed's | ",
 		hours: {
 			monday: '11:00am - 9:00pm',
 			tuesday: '11:00am - 9:00pm',
@@ -31,7 +32,8 @@ const locations = [
 		href: '/locations/santa-maria',
 		address: '560 Betteravia Rd Ste B Santa Maria, CA 93454',
 		phone: '(805) 925-7992',
-		email: 'info@cc-rg.com',
+		email: 'santamaria.meneds@cc-rg.com',
+		emailSubject: "Contact Santa Maria Me-n-Ed's | ",
 		hours: {
 			monday: '11:00am - 10:00pm',
 			tuesday: '11:00am - 10:00pm',
@@ -55,7 +57,8 @@ const locations = [
 		href: '/locations/pismo',
 		address: '750 Price St Pismo Beach, CA 93449',
 		phone: '(805) 556-3636',
-		email: 'info@cc-rg.com',
+		email: 'pismo.meneds@cc-rg.com',
+		emailSubject: "Contact Pismo Me-n-Ed's | ",
 		hours: {
 			monday: '11:00am - 10:00pm',
 			tuesday: '11:00am - 10:00pm',
@@ -88,12 +91,12 @@ export default function Locations() {
 				<meta name='author' content='Colton Bonner' />
 				<meta
 					name='description'
-					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzaria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
+					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzeria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
 				/>
 				<meta property='og:title' content="Me-n-Ed's Central Coast" />
 				<meta
 					property='og:description'
-					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzaria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
+					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzeria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
 				/>
 				<meta
 					property='og:image'
@@ -126,14 +129,14 @@ export default function Locations() {
 										<div className='flex-1'>
 											<Link href={location.href}>
 												<a>
-													<h2 className='block mt-2 text-xl font-semibold text-gray-100 hover:text-red-700 hover:underline'>
+													<h2 className='block mt-2 text-xl font-semibold text-grey-100 hover:text-red-700 hover:underline'>
 														{location.name}
 													</h2>
 												</a>
 											</Link>
 
 											<h3 className='sr-only'>Location Info</h3>
-											<p className='mt-3 text-base text-gray-300 pb-5'>
+											<p className='mt-3 text-base text-grey-300 pb-5'>
 												<a
 													href={location.mapUrl}
 													target='_blank'
@@ -150,12 +153,12 @@ export default function Locations() {
 												<br />
 												<a
 													className='hover:text-red-700'
-													href={`mailto:${location.email}`}>
+													href={`mailto:${location.email}?cc=wendy@cc-rg.com, dferdinandi@blast825taproom.com&subject=${location.emailSubject}`}>
 													{location.email}
 												</a>
 											</p>
 											<h3 className='sr-only'>Hours</h3>
-											<ul className='text-gray-400 text-base text-right p-4'>
+											<ul className='text-grey-400 text-base text-right p-4'>
 												<li>
 													Mon -
 													<time dateTime={location.hours.monday}>
@@ -207,7 +210,7 @@ export default function Locations() {
 														rel='noopener noreferrer'
 														href={location.social.facebook}>
 														<svg
-															className='fill-current text-gray-700 hover:text-red-700'
+															className='fill-current text-grey-700 hover:text-red-700'
 															xmlns='http://www.w3.org/2000/svg'
 															viewBox='0 0 48 48'
 															width='48px'
@@ -222,7 +225,7 @@ export default function Locations() {
 														rel='noopener noreferrer'
 														href={location.social.instagram}>
 														<svg
-															className='fill-current text-gray-700 hover:text-red-700'
+															className='fill-current text-grey-700 hover:text-red-700'
 															xmlns='http://www.w3.org/2000/svg'
 															viewBox='0 0 48 48'
 															width='48px'
@@ -237,7 +240,7 @@ export default function Locations() {
 														rel='noopener noreferrer'
 														href={location.social.yelp}>
 														<svg
-															className='fill-current text-gray-700 hover:text-red-700'
+															className='fill-current text-grey-700 hover:text-red-700'
 															xmlns='http://www.w3.org/2000/svg'
 															viewBox='0 0 48 48'
 															width='48px'

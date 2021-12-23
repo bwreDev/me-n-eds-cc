@@ -46,19 +46,19 @@ export default function Nav() {
 					</Link>
 				</div>
 				<div className='-mr-2 -my-2 md:hidden'>
-					<Popover.Button className='bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-800'>
+					<Popover.Button className='bg-grey-700 rounded-md p-2 inline-flex items-center justify-center text-grey-200 hover:text-grey-300 hover:bg-grey-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-800'>
 						<span className='sr-only'>Open menu</span>
 						<MenuIcon className='h-6 w-6' aria-hidden='true' />
 					</Popover.Button>
 				</div>
 				<Popover.Group as='nav' className='hidden md:flex space-x-10'>
 					<Link href='/'>
-						<a className='text-lg font-medium text-gray-200 hover:text-gray-400'>
+						<a className='text-lg font-medium text-grey-200 hover:text-grey-400'>
 							Home
 						</a>
 					</Link>
 					<Link href='/locations'>
-						<a className='text-lg font-medium text-gray-200 hover:text-gray-400'>
+						<a className='text-lg font-medium text-grey-200 hover:text-grey-400'>
 							Locations
 						</a>
 					</Link>
@@ -67,14 +67,14 @@ export default function Nav() {
 							<>
 								<Popover.Button
 									className={classNames(
-										open ? 'text-gray-200' : 'text-gray-200',
-										'group rounded-md inline-flex items-center text-lg font-medium hover:text-gray-400 focus:outline-none'
+										open ? 'text-grey-200' : 'text-grey-200',
+										'group rounded-md inline-flex items-center text-lg font-medium hover:text-grey-400 focus:outline-none'
 									)}>
 									<span>Stores</span>
 									<ChevronDownIcon
 										className={classNames(
-											open ? 'text-red-700' : 'text-gray-200',
-											'ml-2 h-5 w-5 group-hover:text-gray-400'
+											open ? 'text-red-700' : 'text-grey-200',
+											'ml-2 h-5 w-5 group-hover:text-grey-400'
 										)}
 										aria-hidden='true'
 									/>
@@ -89,20 +89,20 @@ export default function Nav() {
 									leaveTo='opacity-0 translate-y-1'>
 									<Popover.Panel className='absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'>
 										<div className='rounded-lg shadow-lg ring-1 ring-white ring-opacity-20 overflow-hidden'>
-											<div className='relative grid gap-6 bg-gray-900 px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-3'>
+											<div className='relative grid gap-6 bg-grey-900 px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-3'>
 												{locations.map((location) => (
 													<Link
 														href={location.href}
 														key={location.name}>
-														<a className='-m-3 p-3 flex items-start rounded-lg hover:bg-gray-800'>
+														<a className='-m-3 p-3 flex items-start rounded-lg hover:bg-grey-800'>
 															<div className='ml-4'>
-																<p className='text-base font-medium text-gray-200'>
+																<p className='text-base font-medium text-grey-200'>
 																	{location.name}
 																</p>
-																<p className='mt-1 text-sm text-gray-300'>
+																<p className='mt-1 text-sm text-grey-300'>
 																	{location.address}
 																</p>
-																<p className='mt-1 text-sm text-gray-300'>
+																<p className='mt-1 text-sm text-grey-300'>
 																	{location.phone}
 																</p>
 															</div>
@@ -131,7 +131,7 @@ export default function Nav() {
 				<Popover.Panel
 					focus
 					className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'>
-					<div className='rounded-lg shadow-lg ring-2 ring-white ring-opacity-5 bg-gray-900 bg-grunge-overlay bg-fixed divide-y-2 divide-gray-50'>
+					<div className='rounded-lg shadow-lg ring-2 ring-white ring-opacity-5 bg-grey-900 bg-grunge-overlay bg-fixed divide-y-2 divide-grey-50'>
 						<div className='pt-5 pb-6 px-5'>
 							<div className='flex items-center justify-between border-b-2 pb-4 border-red-700'>
 								<div>
@@ -142,17 +142,17 @@ export default function Nav() {
 									/>
 								</div>
 								<Link href='/'>
-									<a className='text-gray-100 hover:text-gray-400'>
+									<a className='text-grey-100 hover:text-grey-400'>
 										Home
 									</a>
 								</Link>
 								<Link href='/locations'>
-									<a className='text-gray-100 hover:text-gray-400'>
+									<a className='text-grey-100 hover:text-grey-400'>
 										Locations
 									</a>
 								</Link>
 								<div className='-mr-2'>
-									<Popover.Button className='bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-300 hover:text-gray-200 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700'>
+									<Popover.Button className='bg-grey-700 rounded-md p-2 inline-flex items-center justify-center text-grey-300 hover:text-grey-200 hover:bg-grey-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700'>
 										<span className='sr-only'>Close menu</span>
 										<XIcon className='h-6 w-6' aria-hidden='true' />
 									</Popover.Button>
@@ -164,8 +164,8 @@ export default function Nav() {
 										<a
 											key={location.name}
 											href={location.href}
-											className='-m-3 p-3 flex items-center rounded-lg hover:bg-gray-700'>
-											<div className='ml-4 text-base font-medium text-gray-200'>
+											className='-m-3 p-3 flex items-center rounded-lg hover:bg-grey-700'>
+											<div className='ml-4 text-base font-medium text-grey-200'>
 												{location.name}
 											</div>
 										</a>

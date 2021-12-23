@@ -28,11 +28,11 @@ const locations = [
 
 export default function Hero() {
 	return (
-		<div className='bg-gray-900'>
+		<div className='bg-grey-900'>
 			<div className='relative pb-36'>
 				<div className='absolute inset-0 bg-offset-315 bg-top bg-fixed lg:bg-cover xl:bg-bottom'>
 					<div
-						className='absolute inset-0 bg-gray-500 mix-blend-multiply'
+						className='absolute inset-0 bg-grey-500 mix-blend-multiply'
 						aria-hidden='true'
 					/>
 				</div>
@@ -46,12 +46,12 @@ export default function Hero() {
 						width={900}
 						height={90}
 					/>
-					<p className='mt-6 text-md max-w-sm sm:max-w-3xl sm:text-xl text-gray-200 filter drop-shadow-xl'>
+					<p className='mt-6 text-md max-w-sm sm:max-w-3xl sm:text-xl text-grey-200 filter drop-shadow-xl'>
 						Bringing the San Joaquin Valley classic to the Central
 						Coast, come visit one of our beloved locations!
 						<br />
 						<q className='italic pl-6'>
-							Two fun guys, one great pizza!
+							Two fun guys, one serious pizza!
 						</q>
 					</p>
 				</div>
@@ -66,16 +66,16 @@ export default function Hero() {
 					{locations.map((location) => (
 						<div
 							key={location.name}
-							className='flex flex-col ring-1 ring-red-700 bg-gray-900 rounded-2xl shadow-xl'>
+							className='flex flex-col ring-1 ring-red-700 bg-grey-900 rounded-2xl shadow-xl'>
 							<div className='flex-1 relative pt-16 px-6 pb-8 bg-blast-overlay bg-top bg-fixed md:px-8 lg:bg-cover xl:bg-right-bottom'>
-								<h3 className='text-xl font-medium text-gray-200'>
+								<h3 className='text-xl font-medium text-grey-200'>
 									<Link href={location.href}>
 										<a className='hover:text-red-700 hover:underline'>
 											{location.name}
 										</a>
 									</Link>
 								</h3>
-								<p className='mt-4 text-base text-gray-300'>
+								<p className='mt-4 text-base text-grey-300'>
 									<a
 										href={location.mapUrl}
 										target='_blank'
@@ -84,7 +84,7 @@ export default function Hero() {
 										{location.address}
 									</a>
 								</p>
-								<p className='mt-4 text-base text-gray-300'>
+								<p className='mt-4 text-base text-grey-300'>
 									<a
 										href={`tel:${location.phone}`}
 										className='hover:text-red-700'>

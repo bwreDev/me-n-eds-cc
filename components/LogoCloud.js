@@ -45,7 +45,7 @@ export default function LogoCloud() {
 						</div>
 					</div>
 					<footer>
-						<div className='max-w-7xl mx-auto py-12 px-4 overflow-hidden border-t-2 border-gray-900 sm:px-6 lg:px-8'>
+						<div className='max-w-7xl mx-auto py-12 px-4 overflow-hidden border-t-2 border-grey-900 sm:px-6 lg:px-8'>
 							<Link href='/'>
 								<a>
 									<img
@@ -54,7 +54,7 @@ export default function LogoCloud() {
 									/>
 								</a>
 							</Link>
-							<p className='mt-8 text-center text-base text-gray-200'>
+							<p className='mt-8 text-center text-base text-grey-200'>
 								&copy; 2021 Central Coast Restaurant Group | All
 								rights reserved.
 							</p>

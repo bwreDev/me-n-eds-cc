@@ -6,7 +6,7 @@ export default function SantaMaria() {
 		<>
 			<Head>
 				<title>
-					Me-n-Ed&apos;s Pizzaria & Crafthouse | Santa Maria
+					Me-n-Ed&apos;s pizzeria & Crafthouse | Santa Maria
 				</title>
 				<meta charSet='utf-8' />
 				<meta
@@ -16,15 +16,15 @@ export default function SantaMaria() {
 				<meta name='author' content='Colton Bonner' />
 				<meta
 					name='description'
-					content="Me-n-Ed's Pizzaria and Crafthouse in Santa Maria is back! Come visit the old school meets new school pizzaria. Now open! 560 Betteravia Rd Ste B Santa Maria, CA 93454. (805) 925-7992. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
+					content="Me-n-Ed's pizzeria and Crafthouse in Santa Maria is back! Come visit the old school meets new school pizzeria. Now open! 560 Betteravia Rd Ste B Santa Maria, CA 93454. (805) 925-7992. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
 				/>
 				<meta
 					property='og:title'
-					content="Me-n-Ed's Pizzaria & Crafthouse | Pismo"
+					content="Me-n-Ed's pizzeria & Crafthouse | Pismo"
 				/>
 				<meta
 					property='og:description'
-					content="Me-n-Ed's Pizzaria and Crafthouse in Santa Maria is back! Come visit the old school meets new school pizzaria. Now open! 560 Betteravia Rd Ste B Santa Maria, CA 93454. (805) 925-7992. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
+					content="Me-n-Ed's pizzeria and Crafthouse in Santa Maria is back! Come visit the old school meets new school pizzeria. Now open! 560 Betteravia Rd Ste B Santa Maria, CA 93454. (805) 925-7992. Open Sunday-Wednesday 11am-10pm, Thursday-Saturday 11am-11pm."
 				/>
 				<meta
 					property='og:image'

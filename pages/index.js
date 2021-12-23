@@ -14,12 +14,12 @@ export default function Home() {
 				<meta name='author' content='Colton Bonner' />
 				<meta
 					name='description'
-					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzaria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
+					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzeria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
 				/>
 				<meta property='og:title' content="Me-n-Ed's Central Coast" />
 				<meta
 					property='og:description'
-					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzaria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
+					content="Me-n-Ed's of the Central Coast brings you the San Joaquin classic pizzeria to locations up and down the central coast. Come have a slice with us! All locations are officially open in Nipomo, Santa Maria, and Pismo."
 				/>
 				<meta
 					property='og:image'
