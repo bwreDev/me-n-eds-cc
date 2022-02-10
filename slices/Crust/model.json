@@ -1,0 +1,45 @@
+{
+  "id": "crust",
+  "type": "SharedSlice",
+  "name": "Crust",
+  "description": "Crust",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Crust",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        }
+      },
+      "items": {
+        "crustName": {
+          "config": {
+            "label": "crustName",
+            "placeholder": "Crust Name",
+            "allowTargetBlank": true,
+            "single": "heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "crustDescription": {
+          "config": {
+            "label": "crustDescription",
+            "placeholder": "Crust Description",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

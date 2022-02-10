@@ -1,0 +1,62 @@
+{
+  "id": "food_menu",
+  "type": "SharedSlice",
+  "name": "FoodMenu",
+  "description": "FoodMenu",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FoodMenu",
+      "primary": {
+        "SectionTitle": {
+          "config": {
+            "label": "SectionTitle",
+            "placeholder": "Section...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        },
+        "SectionDescription": {
+          "config": {
+            "label": "SectionDescription",
+            "placeholder": "Description...",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "ItemName": {
+          "config": {
+            "label": "ItemName",
+            "placeholder": "Item Name...",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "ItemDescription": {
+          "config": {
+            "label": "ItemDescription",
+            "placeholder": "Item Description...",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em,list-item,o-list-item"
+          },
+          "type": "StructuredText"
+        },
+        "Price": {
+          "config": {
+            "label": "Price",
+            "placeholder": "Price..."
+          },
+          "type": "Number"
+        }
+      }
+    }
+  ]
+}

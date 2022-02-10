@@ -1,0 +1,109 @@
+{
+  "slices": {
+    "FoodMenu": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "food_menu",
+        "items": [
+          {
+            "ItemName": [
+              {
+                "type": "heading3",
+                "text": "Benchmark plug-and-play technologies",
+                "spans": []
+              }
+            ],
+            "ItemDescription": [
+              {
+                "type": "paragraph",
+                "text": "Culpa incididunt cupidatat commodo excepteur sunt excepteur reprehenderit aliquip et tempor.",
+                "spans": []
+              }
+            ],
+            "Price": 7904
+          },
+          {
+            "ItemName": [
+              {
+                "type": "heading3",
+                "text": "Transition robust experiences",
+                "spans": []
+              }
+            ],
+            "ItemDescription": [
+              {
+                "type": "paragraph",
+                "text": "Labore nisi excepteur elit aliqua qui laborum labore. Quis commodo sit dolor incididunt esse. Fugiat do magna laborum id veniam est ut anim exercitation voluptate elit.",
+                "spans": []
+              }
+            ],
+            "Price": 609
+          }
+        ],
+        "primary": {
+          "SectionTitle": [
+            {
+              "type": "heading2",
+              "text": "Grow visionary systems",
+              "spans": []
+            }
+          ],
+          "SectionDescription": [
+            {
+              "type": "paragraph",
+              "text": "Est ea reprehenderit aute mollit adipisicing aliquip enim eu esse cupidatat fugiat ullamco dolor ad ex. Reprehenderit qui eiusmod ea nostrud cillum dolor reprehenderit dolore. Excepteur aliquip qui dolore aute duis cillum enim qui minim ex laborum dolore adipisicing duis.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "Crust": {
+      "default-slice": {
+        "primary": {},
+        "items": {
+          "crustName": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "crustDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "_cts": {
+    "food-item": {
+      "Name": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "Description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "Price": {
+        "content": 10
+      }
+    },
+    "nipomo-menu": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}
