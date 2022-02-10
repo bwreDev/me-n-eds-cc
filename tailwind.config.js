@@ -15,8 +15,8 @@ module.exports = {
 		extend: {
 			backgroundImage: {
 				'offset-315': 'url(/images/offset-315.jpg)',
-				'grunge-overlay': 'url(/svg/sm-md-grunge-black-66.svg)',
-				'blast-overlay': 'url(/svg/blast-flame-black.svg)',
+				'grunge-overlay': 'url(/images/sm-md-grunge-black-66.png)',
+				'blast-overlay': 'url(/images/blast-flame-black.png)',
 			},
 		},
 	},

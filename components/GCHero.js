@@ -14,7 +14,7 @@ export default function GCHero() {
 						Universal gift cards
 					</h2>
 					<p className='pt-2 text-grey-100 text-3xl font-extrabold tracking-tight sm:text-4xl'>
-						Just in time for the holidays!
+						Share the love with our universal gift cards!
 					</p>
 					<p className='mt-3 mb-14 text-lg text-grey-300'>
 						Now offering universal gift cards for our various
