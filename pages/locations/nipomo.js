@@ -1,20 +1,21 @@
 import NipomoHero from '../../components/NipomoHero';
 import Head from 'next/head';
-// import { createClient } from '../../prismicConfiguration';
-// import { SliceZone } from '@prismicio/react';
-// import FoodMenu from '../../slices/FoodMenu';
+import { createClient } from '../../prismicConfiguration';
+import { SliceZone } from '@prismicio/react';
+import FoodMenu from '../../slices/FoodMenu';
+import Crust from '../../slices/Crust';
 
-// export async function getStaticProps() {
-//   const client = createClient();
+export async function getStaticProps() {
+  const client = createClient();
 
-//   const nipomo = await client.getByUID('nipomo-menu', 'nipomo-menu');
+  const nipomo = await client.getByUID('nipomo-menu', 'nipomo-menu');
 
-//   return {
-//     props: {
-//       nipomo,
-//     },
-//   };
-// }
+  return {
+    props: {
+      nipomo,
+    },
+  };
+}
 
 export default function Nipomo({ nipomo }) {
   return (
@@ -40,12 +41,15 @@ export default function Nipomo({ nipomo }) {
         <meta property='og:url' content='' />
       </Head>
       <NipomoHero />
-      {/* {<SliceZone
-        slices={nipomo.data.slices}
-        components={{
-          food_menu: FoodMenu,
-        }}
-      />} */}
+      {
+        <SliceZone
+          slices={nipomo.data.slices}
+          components={{
+            food_menu: FoodMenu,
+            crust: Crust,
+          }}
+        />
+      }
     </>
   );
 }
