@@ -1,0 +1,37 @@
+{
+  "id": "sauce",
+  "type": "SharedSlice",
+  "name": "Sauce",
+  "description": "Sauce",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Sauce",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Sauce",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "sauceName": {
+          "config": {
+            "label": "sauceName",
+            "placeholder": "Sauce Name...",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

@@ -4,6 +4,10 @@ import { createClient } from '../../prismicConfiguration';
 import { SliceZone } from '@prismicio/react';
 import FoodMenu from '../../slices/FoodMenu';
 import Crust from '../../slices/Crust';
+import Sauce from '../../slices/Sauce';
+import Sizes from '../../slices/Sizes';
+import Toppings from '../../slices/Toppings';
+import SignaturePrices from '../../slices/SignaturePrices';
 
 export async function getStaticProps() {
   const client = createClient();
@@ -47,6 +51,10 @@ export default function Nipomo({ nipomo }) {
           components={{
             food_menu: FoodMenu,
             crust: Crust,
+            sauce: Sauce,
+            sizes: Sizes,
+            toppings: Toppings,
+            signature_prices: SignaturePrices,
           }}
         />
       }
