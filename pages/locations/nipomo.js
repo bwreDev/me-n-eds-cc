@@ -8,20 +8,26 @@ import Sauce from '../../slices/Sauce';
 import Sizes from '../../slices/Sizes';
 import Toppings from '../../slices/Toppings';
 import SignaturePrices from '../../slices/SignaturePrices';
+import { Tab } from '@headlessui/react';
 
 export async function getStaticProps() {
   const client = createClient();
 
-  const nipomo = await client.getByUID('nipomo-menu', 'nipomo-menu');
+  const nipomoCyop = await client.getByUID('mne-cyop-menu', 'nipomo-cyop-menu');
+  const nipomoSig = await client.getByUID(
+    'mne-signature-pizzas',
+    'nipomo-signature-menu'
+  );
 
   return {
     props: {
-      nipomo,
+      nipomoCyop,
+      nipomoSig,
     },
   };
 }
 
-export default function Nipomo({ nipomo }) {
+export default function Nipomo({ nipomoCyop, nipomoSig }) {
   return (
     <>
       <Head>
@@ -45,19 +51,74 @@ export default function Nipomo({ nipomo }) {
         <meta property='og:url' content='' />
       </Head>
       <NipomoHero />
-      {
-        <SliceZone
-          slices={nipomo.data.slices}
-          components={{
-            food_menu: FoodMenu,
-            crust: Crust,
-            sauce: Sauce,
-            sizes: Sizes,
-            toppings: Toppings,
-            signature_prices: SignaturePrices,
-          }}
-        />
-      }
+      <Tab.Group>
+        <Tab.List className='grid grid-cols-2 lg:grid-cols-5 gap-1 text-lg text-grey-100 px-2 mb-4 lg:px-12'>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl'>
+            Create Your Own Pizza
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Signature Pizzas
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Salads
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Sweets & Sides
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Sandwiches
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Calzones
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Kids Menu
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Lunch Specials
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Signature Pastas
+          </Tab>
+          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
+            Drinks
+          </Tab>
+        </Tab.List>
+        <Tab.Panels>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoCyop.data.body}
+                components={{
+                  crust: Crust,
+                  sauce: Sauce,
+                  sizes: Sizes,
+                  toppings: Toppings,
+                }}
+              />
+            }
+          </Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoSig.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                  signature_prices: SignaturePrices,
+                }}
+              />
+            }
+          </Tab.Panel>
+          <Tab.Panel>Salads</Tab.Panel>
+          <Tab.Panel>Sweets & Sides</Tab.Panel>
+          <Tab.Panel>Sandwiches</Tab.Panel>
+          <Tab.Panel>Calzones</Tab.Panel>
+          <Tab.Panel>Kids Menu</Tab.Panel>
+          <Tab.Panel>Lunch Specials</Tab.Panel>
+          <Tab.Panel>Signature Pastas</Tab.Panel>
+          <Tab.Panel>Drinks</Tab.Panel>
+        </Tab.Panels>
+      </Tab.Group>
     </>
   );
 }
