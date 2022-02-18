@@ -12,7 +12,7 @@ const FoodMenu = ({ slice }) => (
     <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-2'>
       {slice?.items?.map((item, i) => (
         <article className='max-w-sm mx-auto' key={item.ItemName}>
-          <h3 className='text-lg pt-4 text-red-500'>
+          <h3 className='text-lg pt-4 font-bold text-red-500'>
             <RichText render={item.ItemName} />
           </h3>
           <p className='px-2 lg:px-10 pt-2'>
