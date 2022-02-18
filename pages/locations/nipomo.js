@@ -19,17 +19,27 @@ export async function getStaticProps() {
     'nipomo-signature-menu'
   );
   const nipomoSalads = await client.getByUID('mne-salads', 'nipomo-mne-salads');
+  const nipomoCalzones = await client.getByUID(
+    'mne-calzones',
+    'nipomo-mne-calzones'
+  );
 
   return {
     props: {
       nipomoCyop,
       nipomoSig,
       nipomoSalads,
+      nipomoCalzones,
     },
   };
 }
 
-export default function Nipomo({ nipomoCyop, nipomoSig, nipomoSalads }) {
+export default function Nipomo({
+  nipomoCyop,
+  nipomoSig,
+  nipomoSalads,
+  nipomoCalzones,
+}) {
   return (
     <>
       <Head>
@@ -123,7 +133,16 @@ export default function Nipomo({ nipomoCyop, nipomoSig, nipomoSalads }) {
           </Tab.Panel>
           <Tab.Panel>Sweets & Sides</Tab.Panel>
           <Tab.Panel>Sandwiches</Tab.Panel>
-          <Tab.Panel>Calzones</Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoCalzones.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
           <Tab.Panel>Kids Menu</Tab.Panel>
           <Tab.Panel>Lunch Specials</Tab.Panel>
           <Tab.Panel>Signature Pastas</Tab.Panel>
