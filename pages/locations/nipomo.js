@@ -8,6 +8,7 @@ import Sauce from '../../slices/Sauce';
 import Sizes from '../../slices/Sizes';
 import Toppings from '../../slices/Toppings';
 import SignaturePrices from '../../slices/SignaturePrices';
+import LunchSpecials from '../../slices/LunchSpecials';
 import { Tab } from '@headlessui/react';
 
 export async function getStaticProps() {
@@ -23,6 +24,10 @@ export async function getStaticProps() {
     'mne-calzones',
     'nipomo-mne-calzones'
   );
+  const nipomoLunchSpecials = await client.getByUID(
+    'mne-lunch-specials',
+    'nipomo-lunch-specials'
+  );
 
   return {
     props: {
@@ -30,6 +35,7 @@ export async function getStaticProps() {
       nipomoSig,
       nipomoSalads,
       nipomoCalzones,
+      nipomoLunchSpecials,
     },
   };
 }
@@ -39,6 +45,7 @@ export default function Nipomo({
   nipomoSig,
   nipomoSalads,
   nipomoCalzones,
+  nipomoLunchSpecials,
 }) {
   return (
     <>
@@ -144,7 +151,16 @@ export default function Nipomo({
             }
           </Tab.Panel>
           <Tab.Panel>Kids Menu</Tab.Panel>
-          <Tab.Panel>Lunch Specials</Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoLunchSpecials.data.body}
+                components={{
+                  lunch_specials: LunchSpecials,
+                }}
+              />
+            }
+          </Tab.Panel>
           <Tab.Panel>Signature Pastas</Tab.Panel>
           <Tab.Panel>Drinks</Tab.Panel>
         </Tab.Panels>

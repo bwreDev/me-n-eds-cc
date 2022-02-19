@@ -2,6 +2,7 @@
 
 export { default as Crust } from './Crust'
 export { default as FoodMenu } from './FoodMenu'
+export { default as LunchSpecials } from './LunchSpecials'
 export { default as Sauce } from './Sauce'
 export { default as SignaturePrices } from './SignaturePrices'
 export { default as Sizes } from './Sizes'
