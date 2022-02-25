@@ -2,7 +2,7 @@ import React from 'react';
 import { RichText } from 'prismic-reactjs';
 
 const LunchSpecials = ({ slice }) => (
-  <section className='text-grey-200 bg-grey-900 max-w-2xl mx-auto px-2 py-4 border-b-2 border-red-500 lg:px-12 mb-4 lg:max-w-7xl'>
+  <section className='text-grey-200 bg-grey-900 max-w-2xl mx-auto px-2 py-4 lg:px-12 mb-4 lg:max-w-7xl'>
     <h2 className='text-2xl font-extrabold text-red-500'>
       <RichText render={slice.primary.title} />
     </h2>
