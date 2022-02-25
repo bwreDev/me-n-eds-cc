@@ -28,6 +28,14 @@ export async function getStaticProps() {
     'mne-lunch-specials',
     'nipomo-lunch-specials'
   );
+  const nipomoSandwiches = await client.getByUID(
+    'mne-sandwiches',
+    'nipomo-mne-sandwiches'
+  );
+  const nipomoKids = await client.getByUID('mne-kids', 'nipomo-mne-kids');
+  const nipomoPasta = await client.getByUID('mne-pasta', 'nipomo-mne-pasta');
+  const nipomoSides = await client.getByUID('mne-sides', 'nipomo-mne-sides');
+  const nipomoDrinks = await client.getByUID('mne-drinks', 'nipomo-mne-drinks');
 
   return {
     props: {
@@ -36,6 +44,11 @@ export async function getStaticProps() {
       nipomoSalads,
       nipomoCalzones,
       nipomoLunchSpecials,
+      nipomoSandwiches,
+      nipomoKids,
+      nipomoPasta,
+      nipomoSides,
+      nipomoDrinks,
     },
   };
 }
@@ -46,6 +59,11 @@ export default function Nipomo({
   nipomoSalads,
   nipomoCalzones,
   nipomoLunchSpecials,
+  nipomoSandwiches,
+  nipomoKids,
+  nipomoPasta,
+  nipomoSides,
+  nipomoDrinks,
 }) {
   return (
     <>
@@ -138,8 +156,26 @@ export default function Nipomo({
               />
             }
           </Tab.Panel>
-          <Tab.Panel>Sweets & Sides</Tab.Panel>
-          <Tab.Panel>Sandwiches</Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoSides.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoSandwiches.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
           <Tab.Panel>
             {
               <SliceZone
@@ -150,7 +186,16 @@ export default function Nipomo({
               />
             }
           </Tab.Panel>
-          <Tab.Panel>Kids Menu</Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoKids.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
           <Tab.Panel>
             {
               <SliceZone
@@ -161,8 +206,26 @@ export default function Nipomo({
               />
             }
           </Tab.Panel>
-          <Tab.Panel>Signature Pastas</Tab.Panel>
-          <Tab.Panel>Drinks</Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoPasta.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
+          <Tab.Panel>
+            {
+              <SliceZone
+                slices={nipomoDrinks.data.body}
+                components={{
+                  food_menu: FoodMenu,
+                }}
+              />
+            }
+          </Tab.Panel>
         </Tab.Panels>
       </Tab.Group>
     </>
