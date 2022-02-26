@@ -8,7 +8,6 @@ import Sauce from '../../slices/Sauce';
 import Sizes from '../../slices/Sizes';
 import Toppings from '../../slices/Toppings';
 import SignaturePrices from '../../slices/SignaturePrices';
-import LunchSpecials from '../../slices/LunchSpecials';
 import { Tab } from '@headlessui/react';
 
 export async function getStaticProps() {
@@ -24,18 +23,11 @@ export async function getStaticProps() {
     'mne-calzones',
     'sm-mne-calzones'
   );
-  const santaMariaLunchSpecials = await client.getByUID(
-    'mne-lunch-specials',
-    'sm-lunch-specials'
-  );
   const santaMariaSandwiches = await client.getByUID(
     'mne-sandwiches',
     'sm-mne-sandwiches'
   );
-  const santaMariaKids = await client.getByUID('mne-kids', 'sm-mne-kids');
-  const santaMariaPasta = await client.getByUID('mne-pasta', 'sm-mne-pasta');
   const santaMariaSides = await client.getByUID('mne-sides', 'sm-mne-sides');
-  const santaMariaDrinks = await client.getByUID('mne-drinks', 'sm-mne-drinks');
 
   return {
     props: {
@@ -43,12 +35,8 @@ export async function getStaticProps() {
       santaMariaSig,
       santaMariaSalads,
       santaMariaCalzones,
-      santaMariaLunchSpecials,
       santaMariaSandwiches,
-      santaMariaKids,
-      santaMariaPasta,
       santaMariaSides,
-      santaMariaDrinks,
     },
   };
 }
@@ -58,12 +46,8 @@ export default function SantaMaria({
   santaMariaSig,
   santaMariaSalads,
   santaMariaCalzones,
-  santaMariaLunchSpecials,
   santaMariaSandwiches,
-  santaMariaKids,
-  santaMariaPasta,
   santaMariaSides,
-  santaMariaDrinks,
 }) {
   return (
     <>
@@ -108,18 +92,6 @@ export default function SantaMaria({
           <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
             Calzones
           </Tab>
-          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
-            Kids Menu
-          </Tab>
-          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
-            Lunch Specials
-          </Tab>
-          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
-            Signature Pastas
-          </Tab>
-          <Tab className='font-bold bg-grey-800 py-2 px-4 rounded-xl focus:text-red-500'>
-            Drinks
-          </Tab>
         </Tab.List>
         <Tab.Panels>
           <Tab.Panel>
@@ -138,7 +110,7 @@ export default function SantaMaria({
           <Tab.Panel>
             {
               <SliceZone
-                slices={nipomoSig.data.body}
+                slices={santaMariaSig.data.body}
                 components={{
                   food_menu: FoodMenu,
                   signature_prices: SignaturePrices,
@@ -149,7 +121,7 @@ export default function SantaMaria({
           <Tab.Panel>
             {
               <SliceZone
-                slices={nipomoSalads.data.body}
+                slices={santaMariaSalads.data.body}
                 components={{
                   food_menu: FoodMenu,
                 }}
@@ -159,7 +131,7 @@ export default function SantaMaria({
           <Tab.Panel>
             {
               <SliceZone
-                slices={nipomoSides.data.body}
+                slices={santaMariaSides.data.body}
                 components={{
                   food_menu: FoodMenu,
                 }}
@@ -169,7 +141,7 @@ export default function SantaMaria({
           <Tab.Panel>
             {
               <SliceZone
-                slices={nipomoSandwiches.data.body}
+                slices={santaMariaSandwiches.data.body}
                 components={{
                   food_menu: FoodMenu,
                 }}
@@ -179,47 +151,7 @@ export default function SantaMaria({
           <Tab.Panel>
             {
               <SliceZone
-                slices={nipomoCalzones.data.body}
-                components={{
-                  food_menu: FoodMenu,
-                }}
-              />
-            }
-          </Tab.Panel>
-          <Tab.Panel>
-            {
-              <SliceZone
-                slices={nipomoKids.data.body}
-                components={{
-                  food_menu: FoodMenu,
-                }}
-              />
-            }
-          </Tab.Panel>
-          <Tab.Panel>
-            {
-              <SliceZone
-                slices={nipomoLunchSpecials.data.body}
-                components={{
-                  lunch_specials: LunchSpecials,
-                }}
-              />
-            }
-          </Tab.Panel>
-          <Tab.Panel>
-            {
-              <SliceZone
-                slices={nipomoPasta.data.body}
-                components={{
-                  food_menu: FoodMenu,
-                }}
-              />
-            }
-          </Tab.Panel>
-          <Tab.Panel>
-            {
-              <SliceZone
-                slices={nipomoDrinks.data.body}
+                slices={santaMariaCalzones.data.body}
                 components={{
                   food_menu: FoodMenu,
                 }}
