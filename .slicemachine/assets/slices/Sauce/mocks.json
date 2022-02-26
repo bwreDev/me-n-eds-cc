@@ -1,0 +1,36 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "sauce",
+    "items": [
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Redefine sexy content",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Integrate viral web services",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Brand transparent mindshare",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

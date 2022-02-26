@@ -1,0 +1,326 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "sizes",
+    "items": [
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Eiusmod occaecat voluptate anim fugiat aute proident consectetur esse in. Aute non mollit incididunt consectetur anim.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Nisi enim anim elit exercitation consequat proident dolor fugiat. Velit qui incididunt excepteur officia pariatur pariatur sit.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Eu velit voluptate est quis quis non commodo eu aliquip incididunt sunt sint cillum officia. Consectetur reprehenderit sit qui enim velit ad. Aliquip proident duis in dolore aliquip laboris nulla.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Aute exercitation do amet minim ex anim voluptate mollit cillum eu anim tempor consequat reprehenderit reprehenderit. Ut sit ullamco ut in non magna excepteur elit ad consectetur adipisicing sit occaecat. Irure exercitation proident exercitation aliqua fugiat do veniam.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Ullamco cillum reprehenderit consequat proident. Consequat et occaecat ullamco nostrud minim magna culpa consequat deserunt duis pariatur nisi.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Sit ex ipsum non laborum qui non. Sit adipisicing adipisicing laboris commodo proident velit ut eu amet.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Est aliqua sunt duis aliqua cillum laborum duis ut laborum sunt. Cupidatat commodo culpa exercitation est tempor pariatur ea amet id.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Minim commodo sit sit dolore nisi eiusmod tempor eiusmod proident duis sunt ullamco. Ex esse esse consectetur fugiat velit. Laborum commodo mollit elit do ea consequat laboris duis eiusmod.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Consequat enim nostrud minim nostrud esse cillum commodo nostrud ut. Mollit dolor culpa elit non dolore sunt ad sint ea quis velit consectetur adipisicing adipisicing amet.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Et tempor minim magna incididunt consequat veniam reprehenderit pariatur consequat.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Exercitation non exercitation pariatur.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Anim sunt cillum cupidatat non commodo.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Irure commodo amet irure laboris ut laboris nostrud mollit et aliquip irure ipsum cillum.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Duis ut aliqua ex Lorem do nisi nostrud sint. Laborum mollit consectetur eu velit mollit mollit tempor ut tempor.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Nisi aliquip aute qui consectetur aliqua ad officia dolore amet qui dolore deserunt ad ut.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Anim officia laborum sunt cupidatat laboris irure ipsum dolore in. Ipsum occaecat et ea nulla ad voluptate Lorem proident. Do dolore aute amet labore ut excepteur elit reprehenderit.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Et aute eu quis deserunt.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Mollit occaecat incididunt minim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Officia mollit pariatur ipsum sunt pariatur et ex labore non do consectetur nostrud. In culpa sint sit ullamco amet magna ex voluptate.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Sint dolor ad et ut cillum duis commodo in deserunt labore do fugiat exercitation. Enim nulla sint aliqua incididunt in. Anim aute est eiusmod et nulla est tempor ipsum elit adipisicing aliqua.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Pariatur consectetur ea et laborum ea esse in. Anim ut aute duis mollit nostrud esse ut incididunt deserunt duis. Laboris ex do cupidatat et quis cillum id dolor ullamco ut.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Culpa cupidatat ad ea est consequat pariatur commodo veniam sint quis id minim do sit.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Sunt amet commodo in adipisicing est exercitation culpa pariatur laborum aute fugiat quis commodo quis qui. Labore amet minim Lorem. Aute labore nostrud reprehenderit culpa irure proident minim ex commodo aute labore ut.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Est tempor culpa aliquip nisi fugiat consequat. Ex occaecat eiusmod commodo nisi veniam do minim excepteur culpa fugiat.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Excepteur ex mollit esse veniam irure.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Officia sunt esse Lorem velit ut deserunt dolore proident ea irure Lorem magna deserunt mollit. Occaecat mollit proident do nostrud ad sint mollit Lorem ipsum. Occaecat ullamco culpa enim.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Incididunt enim ullamco ex Lorem ipsum. Est pariatur laborum ullamco sint aliqua ipsum dolor culpa reprehenderit commodo.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Nulla sit do pariatur magna.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Incididunt dolore dolor consequat aliquip ipsum aliqua ad culpa ipsum.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Esse veniam quis ullamco velit exercitation ad nulla consequat voluptate ullamco excepteur incididunt consectetur esse. Commodo magna Lorem eiusmod deserunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Nostrud proident cupidatat id fugiat deserunt. Nostrud duis ea est qui.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Mollit ex esse magna. Sunt aliqua qui cillum ea minim magna consequat velit sit.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Id consequat quis reprehenderit eu do. Ex irure minim culpa esse ipsum laboris irure qui ullamco aliquip irure consequat eiusmod ea. Dolor voluptate anim qui labore esse adipisicing nisi laborum dolor excepteur eu aute.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Irure est minim proident aute enim esse dolor. Sint qui aliquip excepteur id qui sunt consectetur non minim ut reprehenderit enim cupidatat eu. Aute occaecat culpa Lorem officia nostrud minim incididunt sint eiusmod qui.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Veniam sint excepteur in veniam eiusmod.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Nostrud in ad velit minim pariatur.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Commodo non anim nisi enim in culpa mollit consequat cillum ullamco esse mollit nulla sint.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Ipsum dolor anim commodo. Commodo culpa velit officia duis dolor magna nulla ad. Ea nulla magna nisi reprehenderit aliquip duis.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Et commodo voluptate commodo commodo do.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Eu proident veniam adipisicing est et eu ipsum deserunt velit. Dolore sint labore minim nulla.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate occaecat duis tempor velit ex tempor aliquip quis cupidatat veniam.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Minim do et eu sunt irure quis esse elit sint magna nostrud commodo occaecat irure ex. Ut nostrud irure quis.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Enhance 24/7 technologies",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

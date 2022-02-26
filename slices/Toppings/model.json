@@ -1,0 +1,37 @@
+{
+  "id": "toppings",
+  "type": "SharedSlice",
+  "name": "Toppings",
+  "description": "Toppings",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Toppings",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Toppings",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "topping": {
+          "config": {
+            "label": "Topping",
+            "placeholder": "Topping...",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}
