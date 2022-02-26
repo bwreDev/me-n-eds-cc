@@ -28,9 +28,6 @@
           "choices": {
             "food_menu": {
               "type": "SharedSlice"
-            },
-            "crust": {
-              "type": "SharedSlice"
             }
           }
         }
