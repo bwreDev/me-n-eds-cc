@@ -1,0 +1,36 @@
+{
+  "id": "signature_prices",
+  "type": "SharedSlice",
+  "name": "SignaturePrices",
+  "description": "SignaturePrices",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SignaturePrices",
+      "primary": {},
+      "items": {
+        "sigSize": {
+          "config": {
+            "label": "sigSize",
+            "placeholder": "Signature Size",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "sigPrice": {
+          "config": {
+            "label": "sigPrice",
+            "placeholder": "Signature Price",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}
