@@ -154,7 +154,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\Crust\\default-slice\\preview.png",
+            "width": 800,
+            "height": 654
+          }
+        }
       },
       "food_menu": {
         "library": "slices",
@@ -304,7 +310,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\FoodMenu\\default-slice\\preview.png",
+            "width": 800,
+            "height": 506
+          }
+        }
       },
       "lunch_specials": {
         "library": "slices",
@@ -474,7 +486,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\LunchSpecials\\default-slice\\preview.png",
+            "width": 800,
+            "height": 598
+          }
+        }
       },
       "sauce": {
         "library": "slices",
@@ -577,7 +595,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\Sauce\\default-slice\\preview.png",
+            "width": 800,
+            "height": 258
+          }
+        }
       },
       "signature_prices": {
         "library": "slices",
@@ -683,7 +707,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\SignaturePrices\\default-slice\\preview.png",
+            "width": 800,
+            "height": 356
+          }
+        }
       },
       "sizes": {
         "library": "slices",
@@ -882,7 +912,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\Sizes\\default-slice\\preview.png",
+            "width": 800,
+            "height": 552
+          }
+        }
       },
       "toppings": {
         "library": "slices",
@@ -985,7 +1021,13 @@
           "isDirectory": true,
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "C:\\Users\\Colton\\Projects\\cc-rg\\me-n-eds-cc\\.slicemachine\\assets\\slices\\Toppings\\default-slice\\preview.png",
+            "width": 800,
+            "height": 198
+          }
+        }
       }
     }
   }
