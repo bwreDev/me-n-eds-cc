@@ -13,12 +13,12 @@ const Crust = ({ slice }) => (
     <div className='grid grid-cols-1 gap-4 text-center sm:grid-cols-2'>
       {slice?.items?.map((item, i) => (
         <article className='max-w-sm mx-auto' key={item.crustName}>
-          <h3 className='text-lg pt-4 font-bold text-red-500'>
+          <div className='text-lg pt-4 font-bold text-red-500'>
             <RichText render={item.crustName} />
-          </h3>
-          <p className='text-grey-200 px-2 lg:px-10 pt-2'>
+          </div>
+          <div className='text-grey-200 px-2 lg:px-10 pt-2'>
             <RichText render={item.crustDescription} />
-          </p>
+          </div>
         </article>
       ))}
     </div>
