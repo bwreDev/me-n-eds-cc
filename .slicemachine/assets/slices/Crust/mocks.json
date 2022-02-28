@@ -1,0 +1,98 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "crust",
+    "items": [
+      {
+        "crustName": [
+          {
+            "type": "heading3",
+            "text": "Disintermediate B2C solutions",
+            "spans": []
+          }
+        ],
+        "crustDescription": [
+          {
+            "type": "paragraph",
+            "text": "Lorem dolore consequat aliqua cillum nulla et laborum aute occaecat sunt.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "crustName": [
+          {
+            "type": "heading3",
+            "text": "Grow next-generation infrastructures",
+            "spans": []
+          }
+        ],
+        "crustDescription": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua cillum anim fugiat occaecat aliqua veniam dolor officia. Deserunt reprehenderit aliquip aliquip ad aute. Reprehenderit qui ad ad cupidatat magna ipsum eu et tempor aliqua excepteur aute.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "crustName": [
+          {
+            "type": "heading3",
+            "text": "Incubate vertical communities",
+            "spans": []
+          }
+        ],
+        "crustDescription": [
+          {
+            "type": "paragraph",
+            "text": "Cillum minim eiusmod tempor ea. Cupidatat magna voluptate do tempor. Ea minim proident irure ad id eiusmod commodo occaecat velit enim proident.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "crustName": [
+          {
+            "type": "heading3",
+            "text": "Aggregate proactive methodologies",
+            "spans": []
+          }
+        ],
+        "crustDescription": [
+          {
+            "type": "paragraph",
+            "text": "Sunt aute eu commodo reprehenderit cillum magna magna voluptate cupidatat aliquip ipsum. Ea enim do ad commodo. Ad pariatur qui anim ipsum laborum deserunt et fugiat esse in qui elit.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "crustName": [
+          {
+            "type": "heading3",
+            "text": "Expedite mission-critical technologies",
+            "spans": []
+          }
+        ],
+        "crustDescription": [
+          {
+            "type": "paragraph",
+            "text": "Nisi et deserunt in consectetur reprehenderit fugiat nostrud in in proident non ut Lorem tempor reprehenderit. Est et officia ad dolor consequat fugiat magna nisi. In ullamco amet elit Lorem dolor laborum magna voluptate tempor sit elit labore irure voluptate.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Transform leading-edge relationships",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

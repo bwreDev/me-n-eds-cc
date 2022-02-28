@@ -1,0 +1,94 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "lunch_specials",
+    "items": [
+      {
+        "itemNumber": [
+          {
+            "type": "paragraph",
+            "text": "Dolore cupidatat occaecat occaecat. Mollit laboris eu minim nulla eu magna sint nisi in sint tempor aliqua.",
+            "spans": []
+          }
+        ],
+        "itemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Labore et nostrud id officia commodo culpa officia nulla elit.",
+            "spans": []
+          }
+        ],
+        "itemPrice": [
+          {
+            "type": "paragraph",
+            "text": "Proident mollit ea ipsum ad officia irure ullamco esse in.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "itemNumber": [
+          {
+            "type": "paragraph",
+            "text": "Adipisicing ea in ipsum veniam esse deserunt velit dolor eu sunt enim. Nulla id tempor aliquip ex et dolore voluptate amet pariatur tempor adipisicing aliqua. Sint quis exercitation elit sunt consectetur velit in ex id dolor aliqua minim.",
+            "spans": []
+          }
+        ],
+        "itemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Commodo ea consequat nisi ullamco quis duis velit qui ea nisi veniam occaecat qui.",
+            "spans": []
+          }
+        ],
+        "itemPrice": [
+          {
+            "type": "paragraph",
+            "text": "Officia tempor reprehenderit magna amet aliquip occaecat consectetur eu. Aliqua magna do nisi do ex fugiat. Laborum proident ex dolore id.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "itemNumber": [
+          {
+            "type": "paragraph",
+            "text": "Labore excepteur tempor ullamco id qui voluptate non in id minim quis duis. Eiusmod ea ad ipsum fugiat ipsum exercitation officia ut. Veniam fugiat occaecat ea nulla anim aliquip Lorem consequat.",
+            "spans": []
+          }
+        ],
+        "itemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Aute consequat non ea Lorem reprehenderit ex veniam occaecat laborum magna fugiat esse eu. Ipsum minim incididunt officia culpa commodo. Officia minim Lorem eu deserunt aliquip aliquip culpa veniam veniam nostrud elit cupidatat veniam.",
+            "spans": []
+          }
+        ],
+        "itemPrice": [
+          {
+            "type": "paragraph",
+            "text": "Do sit elit ullamco exercitation.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Generate seamless deliverables",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Ea tempor laboris anim ullamco eu ad cupidatat esse.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

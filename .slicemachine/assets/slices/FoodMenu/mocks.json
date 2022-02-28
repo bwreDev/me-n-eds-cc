@@ -1,0 +1,76 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "food_menu",
+    "items": [
+      {
+        "ItemName": [
+          {
+            "type": "heading3",
+            "text": "Leverage efficient interfaces",
+            "spans": []
+          }
+        ],
+        "ItemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Occaecat labore officia sint fugiat consequat magna ex eu pariatur enim veniam sint culpa aliqua mollit.",
+            "spans": []
+          }
+        ],
+        "Price": 6541
+      },
+      {
+        "ItemName": [
+          {
+            "type": "heading3",
+            "text": "Strategize front-end experiences",
+            "spans": []
+          }
+        ],
+        "ItemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Proident adipisicing magna aute culpa ex reprehenderit laboris esse.",
+            "spans": []
+          }
+        ],
+        "Price": 9735
+      },
+      {
+        "ItemName": [
+          {
+            "type": "heading3",
+            "text": "Expedite customized e-business",
+            "spans": []
+          }
+        ],
+        "ItemDescription": [
+          {
+            "type": "paragraph",
+            "text": "Fugiat fugiat cupidatat commodo irure dolor sint reprehenderit cillum irure tempor. Labore ad quis quis velit. Lorem elit magna nostrud aliqua adipisicing tempor eiusmod quis deserunt ex dolor adipisicing duis consequat.",
+            "spans": []
+          }
+        ],
+        "Price": 6972
+      }
+    ],
+    "primary": {
+      "SectionTitle": [
+        {
+          "type": "heading2",
+          "text": "Syndicate sexy content",
+          "spans": []
+        }
+      ],
+      "SectionDescription": [
+        {
+          "type": "paragraph",
+          "text": "Magna esse ad proident velit proident nisi duis nostrud consectetur commodo tempor aliqua. Eu consequat eiusmod exercitation ullamco enim.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

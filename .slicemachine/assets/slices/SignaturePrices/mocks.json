@@ -1,0 +1,58 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "signature_prices",
+    "items": [
+      {
+        "sigSize": [
+          {
+            "type": "paragraph",
+            "text": "Irure ipsum officia pariatur consectetur nulla. Dolore culpa ut irure eu incididunt laboris consectetur qui sunt id minim exercitation in enim ipsum.",
+            "spans": []
+          }
+        ],
+        "sigPrice": [
+          {
+            "type": "paragraph",
+            "text": "Veniam reprehenderit amet aliquip veniam nostrud. Occaecat sint officia amet consectetur laboris dolore ut aute sint.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sigSize": [
+          {
+            "type": "paragraph",
+            "text": "Laborum fugiat non deserunt laboris ipsum excepteur deserunt. Officia amet aute mollit sit qui excepteur enim adipisicing.",
+            "spans": []
+          }
+        ],
+        "sigPrice": [
+          {
+            "type": "paragraph",
+            "text": "Magna aliqua Lorem commodo tempor esse eu elit amet enim exercitation.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sigSize": [
+          {
+            "type": "paragraph",
+            "text": "Magna consequat anim nulla minim aliquip. Sit proident velit ad do non consectetur consectetur sint proident.",
+            "spans": []
+          }
+        ],
+        "sigPrice": [
+          {
+            "type": "paragraph",
+            "text": "Dolor in eu nisi eu dolor labore consequat laborum fugiat culpa est reprehenderit eu aliquip. Eu duis nisi cupidatat cillum.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {}
+  }
+]

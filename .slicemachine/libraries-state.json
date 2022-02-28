@@ -1,0 +1,992 @@
+{
+  "slices": {
+    "components": {
+      "crust": {
+        "library": "slices",
+        "id": "crust",
+        "name": "Crust",
+        "description": "Crust",
+        "model": {
+          "id": "crust",
+          "type": "SharedSlice",
+          "name": "Crust",
+          "description": "Crust",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Crust",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                }
+              },
+              "items": {
+                "crustName": {
+                  "config": {
+                    "label": "crustName",
+                    "placeholder": "Crust Name",
+                    "allowTargetBlank": true,
+                    "single": "heading3,heading4,heading5,heading6"
+                  },
+                  "type": "StructuredText"
+                },
+                "crustDescription": {
+                  "config": {
+                    "label": "crustDescription",
+                    "placeholder": "Crust Description",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "crust",
+            "items": [
+              {
+                "crustName": [
+                  {
+                    "type": "heading3",
+                    "text": "Disintermediate B2C solutions",
+                    "spans": []
+                  }
+                ],
+                "crustDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Lorem dolore consequat aliqua cillum nulla et laborum aute occaecat sunt.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "crustName": [
+                  {
+                    "type": "heading3",
+                    "text": "Grow next-generation infrastructures",
+                    "spans": []
+                  }
+                ],
+                "crustDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliqua cillum anim fugiat occaecat aliqua veniam dolor officia. Deserunt reprehenderit aliquip aliquip ad aute. Reprehenderit qui ad ad cupidatat magna ipsum eu et tempor aliqua excepteur aute.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "crustName": [
+                  {
+                    "type": "heading3",
+                    "text": "Incubate vertical communities",
+                    "spans": []
+                  }
+                ],
+                "crustDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cillum minim eiusmod tempor ea. Cupidatat magna voluptate do tempor. Ea minim proident irure ad id eiusmod commodo occaecat velit enim proident.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "crustName": [
+                  {
+                    "type": "heading3",
+                    "text": "Aggregate proactive methodologies",
+                    "spans": []
+                  }
+                ],
+                "crustDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sunt aute eu commodo reprehenderit cillum magna magna voluptate cupidatat aliquip ipsum. Ea enim do ad commodo. Ad pariatur qui anim ipsum laborum deserunt et fugiat esse in qui elit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "crustName": [
+                  {
+                    "type": "heading3",
+                    "text": "Expedite mission-critical technologies",
+                    "spans": []
+                  }
+                ],
+                "crustDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nisi et deserunt in consectetur reprehenderit fugiat nostrud in in proident non ut Lorem tempor reprehenderit. Est et officia ad dolor consequat fugiat magna nisi. In ullamco amet elit Lorem dolor laborum magna voluptate tempor sit elit labore irure voluptate.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Transform leading-edge relationships",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "food_menu": {
+        "library": "slices",
+        "id": "food_menu",
+        "name": "FoodMenu",
+        "description": "FoodMenu",
+        "model": {
+          "id": "food_menu",
+          "type": "SharedSlice",
+          "name": "FoodMenu",
+          "description": "FoodMenu",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FoodMenu",
+              "primary": {
+                "SectionTitle": {
+                  "config": {
+                    "label": "SectionTitle",
+                    "placeholder": "Section...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  },
+                  "type": "StructuredText"
+                },
+                "SectionDescription": {
+                  "config": {
+                    "label": "SectionDescription",
+                    "placeholder": "Description...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {
+                "ItemName": {
+                  "config": {
+                    "label": "ItemName",
+                    "placeholder": "Item Name...",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  },
+                  "type": "StructuredText"
+                },
+                "ItemDescription": {
+                  "config": {
+                    "label": "ItemDescription",
+                    "placeholder": "Item Description...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                },
+                "Price": {
+                  "config": {
+                    "label": "Price",
+                    "placeholder": "Price..."
+                  },
+                  "type": "Number"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "food_menu",
+            "items": [
+              {
+                "ItemName": [
+                  {
+                    "type": "heading3",
+                    "text": "Leverage efficient interfaces",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat labore officia sint fugiat consequat magna ex eu pariatur enim veniam sint culpa aliqua mollit.",
+                    "spans": []
+                  }
+                ],
+                "Price": 6541
+              },
+              {
+                "ItemName": [
+                  {
+                    "type": "heading3",
+                    "text": "Strategize front-end experiences",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident adipisicing magna aute culpa ex reprehenderit laboris esse.",
+                    "spans": []
+                  }
+                ],
+                "Price": 9735
+              },
+              {
+                "ItemName": [
+                  {
+                    "type": "heading3",
+                    "text": "Expedite customized e-business",
+                    "spans": []
+                  }
+                ],
+                "ItemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat fugiat cupidatat commodo irure dolor sint reprehenderit cillum irure tempor. Labore ad quis quis velit. Lorem elit magna nostrud aliqua adipisicing tempor eiusmod quis deserunt ex dolor adipisicing duis consequat.",
+                    "spans": []
+                  }
+                ],
+                "Price": 6972
+              }
+            ],
+            "primary": {
+              "SectionTitle": [
+                {
+                  "type": "heading2",
+                  "text": "Syndicate sexy content",
+                  "spans": []
+                }
+              ],
+              "SectionDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Magna esse ad proident velit proident nisi duis nostrud consectetur commodo tempor aliqua. Eu consequat eiusmod exercitation ullamco enim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "lunch_specials": {
+        "library": "slices",
+        "id": "lunch_specials",
+        "name": "LunchSpecials",
+        "description": "LunchSpecials",
+        "model": {
+          "id": "lunch_specials",
+          "type": "SharedSlice",
+          "name": "LunchSpecials",
+          "description": "LunchSpecials",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LunchSpecials",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Lunch Specials",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Description...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "itemNumber": {
+                  "config": {
+                    "label": "itemNumber",
+                    "placeholder": "#1, #2, #3...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "itemDescription": {
+                  "config": {
+                    "label": "itemDescription",
+                    "placeholder": "Special Description...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "itemPrice": {
+                  "config": {
+                    "label": "itemPrice",
+                    "placeholder": "Price...",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "lunch_specials",
+            "items": [
+              {
+                "itemNumber": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolore cupidatat occaecat occaecat. Mollit laboris eu minim nulla eu magna sint nisi in sint tempor aliqua.",
+                    "spans": []
+                  }
+                ],
+                "itemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Labore et nostrud id officia commodo culpa officia nulla elit.",
+                    "spans": []
+                  }
+                ],
+                "itemPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident mollit ea ipsum ad officia irure ullamco esse in.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "itemNumber": [
+                  {
+                    "type": "paragraph",
+                    "text": "Adipisicing ea in ipsum veniam esse deserunt velit dolor eu sunt enim. Nulla id tempor aliquip ex et dolore voluptate amet pariatur tempor adipisicing aliqua. Sint quis exercitation elit sunt consectetur velit in ex id dolor aliqua minim.",
+                    "spans": []
+                  }
+                ],
+                "itemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Commodo ea consequat nisi ullamco quis duis velit qui ea nisi veniam occaecat qui.",
+                    "spans": []
+                  }
+                ],
+                "itemPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia tempor reprehenderit magna amet aliquip occaecat consectetur eu. Aliqua magna do nisi do ex fugiat. Laborum proident ex dolore id.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "itemNumber": [
+                  {
+                    "type": "paragraph",
+                    "text": "Labore excepteur tempor ullamco id qui voluptate non in id minim quis duis. Eiusmod ea ad ipsum fugiat ipsum exercitation officia ut. Veniam fugiat occaecat ea nulla anim aliquip Lorem consequat.",
+                    "spans": []
+                  }
+                ],
+                "itemDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aute consequat non ea Lorem reprehenderit ex veniam occaecat laborum magna fugiat esse eu. Ipsum minim incididunt officia culpa commodo. Officia minim Lorem eu deserunt aliquip aliquip culpa veniam veniam nostrud elit cupidatat veniam.",
+                    "spans": []
+                  }
+                ],
+                "itemPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Do sit elit ullamco exercitation.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Generate seamless deliverables",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ea tempor laboris anim ullamco eu ad cupidatat esse.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "sauce": {
+        "library": "slices",
+        "id": "sauce",
+        "name": "Sauce",
+        "description": "Sauce",
+        "model": {
+          "id": "sauce",
+          "type": "SharedSlice",
+          "name": "Sauce",
+          "description": "Sauce",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Sauce",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Sauce",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "sauceName": {
+                  "config": {
+                    "label": "sauceName",
+                    "placeholder": "Sauce Name...",
+                    "allowTargetBlank": true,
+                    "single": "heading3"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "sauce",
+            "items": [
+              {
+                "sauceName": [
+                  {
+                    "type": "heading3",
+                    "text": "Leverage innovative networks",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "sauceName": [
+                  {
+                    "type": "heading3",
+                    "text": "Incentivize sexy ROI",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "sauceName": [
+                  {
+                    "type": "heading3",
+                    "text": "Empower impactful relationships",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "sauceName": [
+                  {
+                    "type": "heading3",
+                    "text": "Deliver wireless niches",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Reintermediate front-end deliverables",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "signature_prices": {
+        "library": "slices",
+        "id": "signature_prices",
+        "name": "SignaturePrices",
+        "description": "SignaturePrices",
+        "model": {
+          "id": "signature_prices",
+          "type": "SharedSlice",
+          "name": "SignaturePrices",
+          "description": "SignaturePrices",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SignaturePrices",
+              "primary": {},
+              "items": {
+                "sigSize": {
+                  "config": {
+                    "label": "sigSize",
+                    "placeholder": "Signature Size",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                },
+                "sigPrice": {
+                  "config": {
+                    "label": "sigPrice",
+                    "placeholder": "Signature Price",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "signature_prices",
+            "items": [
+              {
+                "sigSize": [
+                  {
+                    "type": "paragraph",
+                    "text": "Irure ipsum officia pariatur consectetur nulla. Dolore culpa ut irure eu incididunt laboris consectetur qui sunt id minim exercitation in enim ipsum.",
+                    "spans": []
+                  }
+                ],
+                "sigPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Veniam reprehenderit amet aliquip veniam nostrud. Occaecat sint officia amet consectetur laboris dolore ut aute sint.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "sigSize": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laborum fugiat non deserunt laboris ipsum excepteur deserunt. Officia amet aute mollit sit qui excepteur enim adipisicing.",
+                    "spans": []
+                  }
+                ],
+                "sigPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Magna aliqua Lorem commodo tempor esse eu elit amet enim exercitation.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "sigSize": [
+                  {
+                    "type": "paragraph",
+                    "text": "Magna consequat anim nulla minim aliquip. Sit proident velit ad do non consectetur consectetur sint proident.",
+                    "spans": []
+                  }
+                ],
+                "sigPrice": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolor in eu nisi eu dolor labore consequat laborum fugiat culpa est reprehenderit eu aliquip. Eu duis nisi cupidatat cillum.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "sizes": {
+        "library": "slices",
+        "id": "sizes",
+        "name": "Sizes",
+        "description": "Sizes",
+        "model": {
+          "id": "sizes",
+          "type": "SharedSlice",
+          "name": "Sizes",
+          "description": "Sizes",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Sizes",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                }
+              },
+              "items": {
+                "priceCategory": {
+                  "config": {
+                    "label": "priceCategory",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,o-list-item,list-item,strong,em"
+                  },
+                  "type": "StructuredText"
+                },
+                "sizePer": {
+                  "config": {
+                    "label": "sizePer",
+                    "placeholder": "Personal...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                },
+                "sizeSmall": {
+                  "config": {
+                    "label": "sizeSmall",
+                    "placeholder": "Small...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,em,list-item,o-list-item,strong"
+                  },
+                  "type": "StructuredText"
+                },
+                "sizeMed": {
+                  "config": {
+                    "label": "sizeMed",
+                    "placeholder": "Medium...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,em,strong,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                },
+                "sizeLarge": {
+                  "config": {
+                    "label": "sizeLarge",
+                    "placeholder": "Large...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,em,strong,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                },
+                "sizeFam": {
+                  "config": {
+                    "label": "sizeFam",
+                    "placeholder": "Family...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,em,strong,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "sizes",
+            "items": [
+              {
+                "priceCategory": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cillum eiusmod dolore exercitation voluptate tempor elit adipisicing veniam mollit reprehenderit eiusmod velit laborum sint. Cupidatat dolor anim aliquip culpa dolor ex sint. Sit aute non ad reprehenderit.",
+                    "spans": []
+                  }
+                ],
+                "sizePer": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ut Lorem cupidatat voluptate exercitation. Enim consequat officia commodo in do nostrud esse minim amet laborum non.",
+                    "spans": []
+                  }
+                ],
+                "sizeSmall": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat excepteur velit velit. Nulla proident incididunt commodo et velit ipsum minim in esse adipisicing nisi cupidatat aliquip.",
+                    "spans": []
+                  }
+                ],
+                "sizeMed": [
+                  {
+                    "type": "paragraph",
+                    "text": "Eiusmod aliquip ea ullamco excepteur ut aliqua. Ipsum voluptate non est mollit.",
+                    "spans": []
+                  }
+                ],
+                "sizeLarge": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliquip amet aliqua minim sunt exercitation anim sint nulla pariatur officia ipsum labore.",
+                    "spans": []
+                  }
+                ],
+                "sizeFam": [
+                  {
+                    "type": "paragraph",
+                    "text": "Id tempor quis pariatur in nostrud aliquip laborum dolor mollit deserunt laborum excepteur culpa.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "priceCategory": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliquip anim irure ea est eiusmod consequat ut commodo.",
+                    "spans": []
+                  }
+                ],
+                "sizePer": [
+                  {
+                    "type": "paragraph",
+                    "text": "Qui qui magna esse occaecat exercitation amet irure voluptate qui magna Lorem laborum ex ullamco ex.",
+                    "spans": []
+                  }
+                ],
+                "sizeSmall": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laborum sunt qui est nostrud sit elit sint irure nostrud dolor occaecat tempor adipisicing eu quis.",
+                    "spans": []
+                  }
+                ],
+                "sizeMed": [
+                  {
+                    "type": "paragraph",
+                    "text": "Adipisicing cupidatat reprehenderit nostrud commodo quis cupidatat mollit est veniam non laboris aliqua consequat.",
+                    "spans": []
+                  }
+                ],
+                "sizeLarge": [
+                  {
+                    "type": "paragraph",
+                    "text": "Exercitation eu eu do adipisicing occaecat non do culpa deserunt irure elit minim culpa aliquip elit. Velit ipsum fugiat officia dolore elit nostrud.",
+                    "spans": []
+                  }
+                ],
+                "sizeFam": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ex dolore sunt do voluptate in id consequat aliquip exercitation.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Revolutionize ubiquitous e-tailers",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "toppings": {
+        "library": "slices",
+        "id": "toppings",
+        "name": "Toppings",
+        "description": "Toppings",
+        "model": {
+          "id": "toppings",
+          "type": "SharedSlice",
+          "name": "Toppings",
+          "description": "Toppings",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Toppings",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Toppings",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "topping": {
+                  "config": {
+                    "label": "Topping",
+                    "placeholder": "Topping...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "toppings",
+            "items": [
+              {
+                "topping": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sint adipisicing eiusmod reprehenderit cupidatat dolor excepteur amet esse magna.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "topping": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laboris ex ex ullamco sunt aute laborum irure eu occaecat ipsum magna.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "topping": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolor Lorem adipisicing amet id ad commodo. Consequat sint tempor anim proident eu esse ut sint in magna nulla nulla non est laborum.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "topping": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nisi nulla sunt tempor do sit laborum mollit laboris elit veniam irure. Quis elit ex non sit nostrud Lorem consequat. Aute nulla elit ad dolore aliquip exercitation consequat.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Redefine plug-and-play networks",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

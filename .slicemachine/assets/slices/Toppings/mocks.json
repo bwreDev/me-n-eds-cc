@@ -1,0 +1,54 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "toppings",
+    "items": [
+      {
+        "topping": [
+          {
+            "type": "paragraph",
+            "text": "Sint adipisicing eiusmod reprehenderit cupidatat dolor excepteur amet esse magna.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "topping": [
+          {
+            "type": "paragraph",
+            "text": "Laboris ex ex ullamco sunt aute laborum irure eu occaecat ipsum magna.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "topping": [
+          {
+            "type": "paragraph",
+            "text": "Dolor Lorem adipisicing amet id ad commodo. Consequat sint tempor anim proident eu esse ut sint in magna nulla nulla non est laborum.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "topping": [
+          {
+            "type": "paragraph",
+            "text": "Nisi nulla sunt tempor do sit laborum mollit laboris elit veniam irure. Quis elit ex non sit nostrud Lorem consequat. Aute nulla elit ad dolore aliquip exercitation consequat.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Redefine plug-and-play networks",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

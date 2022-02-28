@@ -1,0 +1,46 @@
+{
+  "id": "mne-cyop-menu",
+  "label": "mne-cyop-menu",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "cyop-menu",
+          "placeholder": "cyop-menu"
+        }
+      },
+      "create_your_own_pizza": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2",
+          "label": "Create Your Own Pizza",
+          "placeholder": "Create Your Own Pizza"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "sizes": {
+              "type": "SharedSlice"
+            },
+            "sauce": {
+              "type": "SharedSlice"
+            },
+            "crust": {
+              "type": "SharedSlice"
+            },
+            "toppings": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  },
+  "status": true
+}

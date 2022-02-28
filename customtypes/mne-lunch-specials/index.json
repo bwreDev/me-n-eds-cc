@@ -1,0 +1,29 @@
+{
+  "id": "mne-lunch-specials",
+  "label": "mne-lunch-specials",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "mne-lunch-specials",
+          "placeholder": "mne-lunch-specials"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "lunch_specials": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  },
+  "status": true
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "sizes",
+    "items": [
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Cillum eiusmod dolore exercitation voluptate tempor elit adipisicing veniam mollit reprehenderit eiusmod velit laborum sint. Cupidatat dolor anim aliquip culpa dolor ex sint. Sit aute non ad reprehenderit.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Ut Lorem cupidatat voluptate exercitation. Enim consequat officia commodo in do nostrud esse minim amet laborum non.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat excepteur velit velit. Nulla proident incididunt commodo et velit ipsum minim in esse adipisicing nisi cupidatat aliquip.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Eiusmod aliquip ea ullamco excepteur ut aliqua. Ipsum voluptate non est mollit.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip amet aliqua minim sunt exercitation anim sint nulla pariatur officia ipsum labore.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Id tempor quis pariatur in nostrud aliquip laborum dolor mollit deserunt laborum excepteur culpa.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "priceCategory": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip anim irure ea est eiusmod consequat ut commodo.",
+            "spans": []
+          }
+        ],
+        "sizePer": [
+          {
+            "type": "paragraph",
+            "text": "Qui qui magna esse occaecat exercitation amet irure voluptate qui magna Lorem laborum ex ullamco ex.",
+            "spans": []
+          }
+        ],
+        "sizeSmall": [
+          {
+            "type": "paragraph",
+            "text": "Laborum sunt qui est nostrud sit elit sint irure nostrud dolor occaecat tempor adipisicing eu quis.",
+            "spans": []
+          }
+        ],
+        "sizeMed": [
+          {
+            "type": "paragraph",
+            "text": "Adipisicing cupidatat reprehenderit nostrud commodo quis cupidatat mollit est veniam non laboris aliqua consequat.",
+            "spans": []
+          }
+        ],
+        "sizeLarge": [
+          {
+            "type": "paragraph",
+            "text": "Exercitation eu eu do adipisicing occaecat non do culpa deserunt irure elit minim culpa aliquip elit. Velit ipsum fugiat officia dolore elit nostrud.",
+            "spans": []
+          }
+        ],
+        "sizeFam": [
+          {
+            "type": "paragraph",
+            "text": "Ex dolore sunt do voluptate in id consequat aliquip exercitation.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Revolutionize ubiquitous e-tailers",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

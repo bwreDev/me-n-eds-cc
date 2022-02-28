@@ -1,0 +1,32 @@
+{
+  "id": "mne-signature-pizzas",
+  "label": "mne-signature-pizzas",
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "mne-signature-pizzas",
+          "placeholder": "mne-signature-pizzas"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {
+            "signature_prices": {
+              "type": "SharedSlice"
+            },
+            "food_menu": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  },
+  "status": true
+}

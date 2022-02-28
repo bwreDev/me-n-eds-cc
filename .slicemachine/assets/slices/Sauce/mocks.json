@@ -1,0 +1,54 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "sauce",
+    "items": [
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Leverage innovative networks",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Incentivize sexy ROI",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Empower impactful relationships",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "sauceName": [
+          {
+            "type": "heading3",
+            "text": "Deliver wireless niches",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Reintermediate front-end deliverables",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
